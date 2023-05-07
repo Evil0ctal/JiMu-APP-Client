@@ -21,7 +21,6 @@ class JiMuClient:
             'Accept-Encoding': 'gzip',
             'Content-Type': 'application/json; charset=UTF-8',
         }
-        self.__session: httpx.AsyncClient = httpx.AsyncClient()
         self.timeout = 10
         self.sid = None
         self.uid = None
@@ -39,7 +38,8 @@ class JiMuClient:
         return md5.hexdigest()
 
     async def request(self, method, url, **kwargs):
-        response = await self.__session.request(method, url, headers=self.headers, timeout=self.timeout, **kwargs)
+        async with httpx.AsyncClient() as client:
+            response = await client.request(method, url, headers=self.headers, timeout=self.timeout, **kwargs)
         data = response.json()
         return data
 
@@ -50,6 +50,13 @@ class JiMuClient:
         json_str = json.dumps(data, separators=(',', ':'), ensure_ascii=False)
         return await self.request(method="POST", url=url,
                                   content=json_str.encode("utf-8"))
+
+    async def register(self, phone_country_code: int,
+                       phone_number: int,
+                       password: str,
+                       password_md5: Optional[str] = None,
+                       ) -> dict:
+        pass
 
     async def login(self, phone_country_code: int,
                     phone_number: int,
@@ -70,10 +77,28 @@ class JiMuClient:
             "password": password_md5 or self.generate_md5(password)
         }
         response = await self.post(url, payload)
+        if response["code"] != 0:
+            raise ValueError(response['message'])
         # 更新sid和uid的类属性
         self.sid = response["data"]["token"]
         self.uid = response["data"]["uid"]
         return response
+
+    async def get_self_info(self, sid: str = None, self_uid: int = None) -> dict:
+        """
+        :param sid: session id，运行login()后会自动更新。
+        :param self_uid: 本人的uid，运行login()后会自动更新。
+        :return: dict
+        """
+        sid = sid or self.sid
+        self_uid = self_uid or self.uid
+        if sid and self_uid:
+            url = f"{self.service_host}/api/account/getMyself?cv=GM5.5.90_Android&statistics=&sid={sid}&uid={self_uid}"
+            payload = {"id": self_uid}
+            response = await self.post(url, payload)
+            return response
+        else:
+            raise ValueError("请先登录！")
 
     async def get_user_info(self, target_uid: int, sid: str = None, self_uid: int = None) -> dict:
         """
