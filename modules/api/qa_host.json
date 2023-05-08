@@ -1,0 +1,4685 @@
+{
+   "data" : {
+      "md5" : "c112b3e2d684d14577e4025dbe629880",
+      "server" : [
+         {
+            "key" : "AB_TEST_LOGID",
+            "url" : "https://testqa.gmugmu.com/api/v1/base/abtest/logid"
+         },
+         {
+            "key" : "ACCOUNT_ALLPRIVILEGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/account/allprivilege"
+         },
+         {
+            "key" : "ACCOUNT_CANCEL_ACCOUNT_DESTROY",
+            "url" : "https://testqa.gmugmu.com/api/account/cancelAccountDestroy"
+         },
+         {
+            "key" : "ACCOUNT_CHECK_ACCOUNT_STATUS",
+            "url" : "https://testqa.gmugmu.com/api/account/checkaccountstatus"
+         },
+         {
+            "key" : "ACCOUNT_DESTROY",
+            "url" : "https://testqa.gmugmu.com/api/account/destroy"
+         },
+         {
+            "key" : "ACCOUNT_DESTROYSMS",
+            "url" : "https://testqa.gmugmu.com/api/account/destroysms"
+         },
+         {
+            "key" : "ACCOUNT_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/account/edit"
+         },
+         {
+            "key" : "ACCOUNT_FORGOT_PASSWORD",
+            "url" : "https://testqa.gmugmu.com/api/account/forgotpassword"
+         },
+         {
+            "key" : "ACCOUNT_GETLOCALMOBILE",
+            "url" : "https://testqa.gmugmu.com/api/v1/account/getlocalmobile"
+         },
+         {
+            "key" : "ACCOUNT_GETMYSELF",
+            "url" : "https://testqa.gmugmu.com/api/account/getMyself"
+         },
+         {
+            "key" : "ACCOUNT_GETUSER",
+            "url" : "https://testqa.gmugmu.com/api/account/getUser"
+         },
+         {
+            "key" : "ACCOUNT_IMG_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/account/imgverify"
+         },
+         {
+            "key" : "ACCOUNT_LOGIN",
+            "url" : "https://testqa.gmugmu.com/api/account/login"
+         },
+         {
+            "key" : "ACCOUNT_LOGIN_SMS_SEND",
+            "url" : "https://testqa.gmugmu.com/api/v1/account/login/sms/send"
+         },
+         {
+            "key" : "ACCOUNT_LOGIN_SMS_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/account/login/sms/verify"
+         },
+         {
+            "key" : "ACCOUNT_LOGIN_V3",
+            "url" : "https://testqa.gmugmu.com/api/v3/account/login"
+         },
+         {
+            "key" : "ACCOUNT_LOGOUT",
+            "url" : "https://testqa.gmugmu.com/api/account/logout"
+         },
+         {
+            "key" : "ACCOUNT_MOBILE_GET",
+            "url" : "https://testqa.gmugmu.com/api/account/getAccountMobile"
+         },
+         {
+            "key" : "ACCOUNT_MODIFY_ACCOUNT",
+            "url" : "https://testqa.gmugmu.com/api/account/modifyaccount"
+         },
+         {
+            "key" : "ACCOUNT_MODIFY_ACCOUNT_LOGIN",
+            "url" : "https://testqa.gmugmu.com/api/account/modifyaccountlogin"
+         },
+         {
+            "key" : "ACCOUNT_POSITION",
+            "url" : "https://testqa.gmugmu.com/api/account/accountposition"
+         },
+         {
+            "key" : "ACCOUNT_PRE_MODIFY_ACCOUNT",
+            "url" : "https://testqa.gmugmu.com/api/account/premodifyaccount"
+         },
+         {
+            "key" : "ACCOUNT_REGISTER",
+            "url" : "https://testqa.gmugmu.com/api/account/register"
+         },
+         {
+            "key" : "ACCOUNT_REGISTER_V3",
+            "url" : "https://testqa.gmugmu.com/api/v3/account/register"
+         },
+         {
+            "key" : "ACCOUNT_RESET_PASSWORD",
+            "url" : "https://testqa.gmugmu.com/api/account/resetpassword"
+         },
+         {
+            "key" : "ACCOUNT_SEND_FORGOT_PASSWORDSMS",
+            "url" : "https://testqa.gmugmu.com/api/account/sendforgotpasswordsms"
+         },
+         {
+            "key" : "ACCOUNT_SEND_REGSMS",
+            "url" : "https://testqa.gmugmu.com/api/account/sendregsms"
+         },
+         {
+            "key" : "ACCOUNT_SET_ACCOUNT_SOUL",
+            "url" : "https://testqa.gmugmu.com/api/account/setaccountsoulsocial"
+         },
+         {
+            "key" : "ACCOUNT_SUPPORT_ARTICLE_LISTS",
+            "url" : "https://testqa.gmugmu.com/api/community/accountsupportarticlelists"
+         },
+         {
+            "key" : "ACCOUNT_TOURIST_REGISTER",
+            "url" : "https://testqa.gmugmu.com/api/account/touristRegister"
+         },
+         {
+            "key" : "ACCOUNT_UPLOAD_COVER",
+            "url" : "https://testqa.gmugmu.com/api/account/uploadcover"
+         },
+         {
+            "key" : "ACCOUNT_UPLOAD_VIDEO_TOKEN",
+            "url" : "https://testqa.gmugmu.com/api/account/getUploadVideoToken"
+         },
+         {
+            "key" : "ACCOUNT_VERIFY_DESTROYSMS",
+            "url" : "https://testqa.gmugmu.com/api/account/verifyDestroySms"
+         },
+         {
+            "key" : "ACCOUNT_VERIFY_FORGOT_PASSWORDSMS",
+            "url" : "https://testqa.gmugmu.com/api/account/verifyforgotpasswordsms"
+         },
+         {
+            "key" : "ACCOUNT_VERIFY_REGSMS",
+            "url" : "https://testqa.gmugmu.com/api/account/verifyregsms"
+         },
+         {
+            "key" : "ACT_ATTENTION_ACCOUNT",
+            "url" : "https://testqa.gmugmu.com/api/actnew/actattentionaccount"
+         },
+         {
+            "key" : "ACT_CATEGORY",
+            "url" : "https://testqa.gmugmu.com/api/actnew/actcategory"
+         },
+         {
+            "key" : "ACT_COLLECT",
+            "url" : "https://testqa.gmugmu.com/api/actnew/actCollect"
+         },
+         {
+            "key" : "ACT_DEL_MY_ACT",
+            "url" : "https://testqa.gmugmu.com/api/actnew/delmyact"
+         },
+         {
+            "key" : "ACT_LISTS",
+            "url" : "https://testqa.gmugmu.com/api/actnew/actlists"
+         },
+         {
+            "key" : "ACT_MY_LISTS",
+            "url" : "https://testqa.gmugmu.com/api/actnew/myactlists"
+         },
+         {
+            "key" : "ACT_NEW_LISTS",
+            "url" : "https://testqa.gmugmu.com/api/actnew/actNewLists"
+         },
+         {
+            "key" : "ACT_NONSENSE",
+            "url" : "https://testqa.gmugmu.com/api/actnew/nonsense"
+         },
+         {
+            "key" : "ACT_SAME_ACCOUNT",
+            "url" : "https://testqa.gmugmu.com/api/actnew/actSameAccount"
+         },
+         {
+            "key" : "ACT_SEND_BULLET",
+            "url" : "https://testqa.gmugmu.com/api/actnew/sendactbullet"
+         },
+         {
+            "key" : "ALI_VOICE_TOKEN",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/match_token"
+         },
+         {
+            "key" : "ANDFIX_INFO",
+            "url" : "https://testqa.gmugmu.com/api/andfix/info"
+         },
+         {
+            "key" : "ANDROID_VIP_UPGRADE_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/vipHelp/androidSvip"
+         },
+         {
+            "key" : "API_CASH_EXCHANGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/exchange"
+         },
+         {
+            "key" : "API_CASH_EXCHANGE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/exchange/list"
+         },
+         {
+            "key" : "APPCONFIG_BASE_CONFIG",
+            "url" : "https://testqa.gmugmu.com/appconfig/v1/base/config"
+         },
+         {
+            "key" : "APPCONFIG_CONFIG",
+            "url" : "https://testqa.gmugmu.com/appconfig/v1/config"
+         },
+         {
+            "key" : "APPLE_NOTIFY_ALL",
+            "url" : "https://testqa.gmugmu.com/api/v1/apple/notify/all"
+         },
+         {
+            "key" : "APP_CONFIG_GET",
+            "url" : "https://testqa.gmugmu.com/api/v1/app/config"
+         },
+         {
+            "key" : "APP_UPGRADE",
+            "url" : "https://testqa.gmugmu.com/api/v1/base/app_upgrade"
+         },
+         {
+            "key" : "ART_AD_LISTS",
+            "url" : "https://testqa.gmugmu.com/api/community/artadlists"
+         },
+         {
+            "key" : "AUHT_RECETN_RECOMMEND",
+            "url" : "https://testqa.gmugmu.com/api/v1/auth/recent/recommend"
+         },
+         {
+            "key" : "AUTHZ_DEIV_SMS_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/devi/sms/verify"
+         },
+         {
+            "key" : "AUTHZ_DEVI_EXIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/devi/exist"
+         },
+         {
+            "key" : "AUTHZ_DEVI_PHONE_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/devi/phone/verify"
+         },
+         {
+            "key" : "AUTHZ_DEVI_SMS_VERIFY_PRE",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/devi/sms/verify/pre"
+         },
+         {
+            "key" : "AUTHZ_RISK_PHONE_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/risk/phone/verify"
+         },
+         {
+            "key" : "AUTHZ_RISK_SMS_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/risk/sms/verify"
+         },
+         {
+            "key" : "AUTHZ_RISK_SMS_VERIFY_PRE",
+            "url" : "https://testqa.gmugmu.com/api/v1/authz/risk/sms/verify/pre"
+         },
+         {
+            "key" : "AUTH_SECURITY_INFO_CHECK",
+            "url" : "https://testqa.gmugmu.com/api/v1/auth/security/info/check"
+         },
+         {
+            "key" : "AUTH_VERIFY_PRE",
+            "url" : "https://testqa.gmugmu.com/api/v1/auth/verify/pre"
+         },
+         {
+            "key" : "AUTH_VERIFY_RESULT",
+            "url" : "https://testqa.gmugmu.com/api/v1/auth/verify/result"
+         },
+         {
+            "key" : "AUTH_VERIFY_STATUS",
+            "url" : "https://qa-service.hitup.cn/api/v1/auth/verify/status"
+         },
+         {
+            "key" : "BAR_TABLE_KICKOUT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/kick_out"
+         },
+         {
+            "key" : "BASE_SWITCH_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/base/switch/list"
+         },
+         {
+            "key" : "BASE_SWITCH_LIST_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/base/switch/list"
+         },
+         {
+            "key" : "BASIC_DATE",
+            "url" : "https://testqa.gmugmu.com/basic/date"
+         },
+         {
+            "key" : "BASIC_NOTICE",
+            "url" : "https://testqa.gmugmu.com/basic/notice"
+         },
+         {
+            "key" : "BLOCK_FEED_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/block_feeds"
+         },
+         {
+            "key" : "BOARD_ANCHOR_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/billboard/anchor/list"
+         },
+         {
+            "key" : "BOARD_FAMILY_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/billboard/family/list"
+         },
+         {
+            "key" : "BOARD_PLATFORM_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/bill_board/platform_list"
+         },
+         {
+            "key" : "BOARD_USER_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/billboard/user/list"
+         },
+         {
+            "key" : "BUSI_BILLBOARD_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/billboard/list"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_BUY",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/buy"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_FANS",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/fans"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_FANS_RANK_POSITION",
+            "url" : "https://testqa.gmugmu.com/api/busi/fansclub/fans/rank_position"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_FOLLOW",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/follow"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_FOLLOWINGS",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/followings"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_FOLLOWS",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/follows"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_FOLLOW_RECCOMMEND",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/follow/recommend"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_INFO_UPDATE",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/info/update"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_INFO_UPDATE_LIMIT",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/info/update_limit"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_LIST_ALL",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/list_all"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_LIST_ALL_BY_EXP",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/list_all_by_exp"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_LIST_NEW",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/list_new"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_LIST_TOP",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/list_top"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_RELATION",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/relation"
+         },
+         {
+            "key" : "BUSI_FANSCLUB_UNFOLLOW",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fansclub/unfollow"
+         },
+         {
+            "key" : "BUSI_FANSTASK_PRIVILEGE_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fanstask/privilege_list"
+         },
+         {
+            "key" : "BUSI_FANSTASK_QUERY",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/fanstask/query"
+         },
+         {
+            "key" : "BUSI_GIFT_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/list"
+         },
+         {
+            "key" : "BUSI_GIFT_LOG_UPLOAD",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/log/upload"
+         },
+         {
+            "key" : "BUSI_GIFT_MSG_SEND",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/msg_send"
+         },
+         {
+            "key" : "BUSI_GIFT_RES_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/resource/list"
+         },
+         {
+            "key" : "BUSI_GIFT_SEND",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/send"
+         },
+         {
+            "key" : "BUSI_NOBLE_DESC",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/noble/desc"
+         },
+         {
+            "key" : "BUSI_NOBLE_DESC_V2",
+            "url" : "https://testqa-live.gmugmu.com/api/v2/busi/noble/desc"
+         },
+         {
+            "key" : "BUSI_NOBLE_LEVEL_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/busi/noble/level/info"
+         },
+         {
+            "key" : "CASH_ACCOUNT_BIND",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/account/bind"
+         },
+         {
+            "key" : "CASH_ACCOUNT_CHECK",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/account/check"
+         },
+         {
+            "key" : "CASH_ACCOUNT_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/account/info"
+         },
+         {
+            "key" : "CASH_EXCHANGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/exchange"
+         },
+         {
+            "key" : "CASH_EXCHANGE_H5",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/withdraw/index.html#exchange"
+         },
+         {
+            "key" : "CASH_EXCHANGE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/exchange/list"
+         },
+         {
+            "key" : "CASH_WITHDRAW",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/withdraw"
+         },
+         {
+            "key" : "CASH_WITHDRAW_CHECK",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/withdraw/check"
+         },
+         {
+            "key" : "CASH_WITHDRAW_H5",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/withdraw/index.html#withdraw"
+         },
+         {
+            "key" : "CASH_WITHDRAW_HISTORY",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/cash/withdraw/history"
+         },
+         {
+            "key" : "CASH_WITHDRAW_HISTORY_H5",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/withdraw/index.html#history"
+         },
+         {
+            "key" : "CASH_WITHDRAW_QUERY",
+            "url" : "https://testqa.gmugmu.com/api/v1/cash/withdraw/query"
+         },
+         {
+            "key" : "CASH_WITHDRAW_RULE_H5",
+            "url" : "https://activity-h5.hngaojia.cn/1488"
+         },
+         {
+            "key" : "CLEAR_MONMENTS_REMIND",
+            "url" : "https://testqa.gmugmu.com/api/community/clearmonmentsremind"
+         },
+         {
+            "key" : "CLIENT_LOG_UPLOAD",
+            "url" : "http://test-maidian.inke.cn/log/upload"
+         },
+         {
+            "key" : "COIN_HISTORY",
+            "url" : "https://testqa.gmugmu.com/api/v1/wallet/coin/history"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_FRIEND",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/friend"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_INTEREST_REC",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/interest_rec"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_LABEL",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/label"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_LIKE",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/like"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_NEAR_REC",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/near_rec"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_RECOMMEND",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/recommend"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_RELATED_REC",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/related_rec"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_TOPIC_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/topic_feeds"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_USER_FEED",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/user_feed"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_VIDEOS_REC",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/videos_rec"
+         },
+         {
+            "key" : "COMMUNITY_FANS_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/fans/list"
+         },
+         {
+            "key" : "COMMUNITY_FANS_UNREAD_CLEAR",
+            "url" : "https://testqa.gmugmu.com/mock/799/api/v1/community/fans/unread/clear"
+         },
+         {
+            "key" : "COMMUNITY_FOLLOW_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/follow/list"
+         },
+         {
+            "key" : "COMMUNITY_NOTIFY_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/notify/count"
+         },
+         {
+            "key" : "COMMUNITY_NOTIFY_COUNT_RESET",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/notify/countreset"
+         },
+         {
+            "key" : "COMMUNITY_NOTIFY_FAVOUR",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/notify/favour"
+         },
+         {
+            "key" : "COMMUNITY_NOTIFY_FOLLOW",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/notify/follow"
+         },
+         {
+            "key" : "COMMUNITY_NOTIFY_REPLY",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/notify/reply"
+         },
+         {
+            "key" : "COMMUNITY_RELATION_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/relation/count"
+         },
+         {
+            "key" : "COMMUNITY_TEXT_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/textVerify"
+         },
+         {
+            "key" : "COMMUNITY_UPLOAD_TOKEN",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/getUploadToken"
+         },
+         {
+            "key" : "COMMUNITY_USER_FOLLOW",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/user/follow"
+         },
+         {
+            "key" : "COMMUNITY_USER_UNFOLLOW",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/user/unfollow"
+         },
+         {
+            "key" : "DECORATION_GET_MYSELF",
+            "url" : "https://testqa.gmugmu.com/api/v1/decoration/myself"
+         },
+         {
+            "key" : "DECORATION_SWITCH_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/decoration/switch/list"
+         },
+         {
+            "key" : "DECORATION_SWITCH_TOGGLE",
+            "url" : "https://testqa.gmugmu.com/api/v1/decoration/switch/toggle"
+         },
+         {
+            "key" : "FACE_AUTH_H5",
+            "url" : "https://testqa-h5.gmugmu.com/365"
+         },
+         {
+            "key" : "FANS_UNREAD_CLEAR",
+            "url" : "https://testqa.gmugmu.com/api/v1/fans/unread/clear"
+         },
+         {
+            "key" : "FANS_UNREAD_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/fans/unread/count"
+         },
+         {
+            "key" : "FEED_BLOCKS_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/blocks"
+         },
+         {
+            "key" : "FEED_CITY",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/city"
+         },
+         {
+            "key" : "FEED_CITY_CODE",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/city_code"
+         },
+         {
+            "key" : "FEED_CITY_FEED",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/city_feed"
+         },
+         {
+            "key" : "FEED_COMMENT",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/comment"
+         },
+         {
+            "key" : "FEED_COMMENTS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/comments"
+         },
+         {
+            "key" : "FEED_CONTENT_FOLLOW_CANCEL_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/content/follow/cancel"
+         },
+         {
+            "key" : "FEED_CONTENT_FOLLOW_LIST_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/content/follow/list"
+         },
+         {
+            "key" : "FEED_CONTENT_FOLLOW_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/content/follow"
+         },
+         {
+            "key" : "FEED_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/delete"
+         },
+         {
+            "key" : "FEED_DYNAMIC",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/dynamic"
+         },
+         {
+            "key" : "FEED_FOLLOW",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/follow"
+         },
+         {
+            "key" : "FEED_FRIEND_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/friend_feeds"
+         },
+         {
+            "key" : "FEED_HOT_CHAT",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/hot_chat"
+         },
+         {
+            "key" : "FEED_HOT_CITY",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/hot_city"
+         },
+         {
+            "key" : "FEED_KEYWORDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/keywords"
+         },
+         {
+            "key" : "FEED_KEYWORD_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v3/feed/keyword_feeds"
+         },
+         {
+            "key" : "FEED_LIKE",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/like"
+         },
+         {
+            "key" : "FEED_LIKE_ENTITYS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/like_entitys"
+         },
+         {
+            "key" : "FEED_MERCHANT_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/merchant_feeds"
+         },
+         {
+            "key" : "FEED_MESSAGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/message"
+         },
+         {
+            "key" : "FEED_NEAR",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/near"
+         },
+         {
+            "key" : "FEED_NEARBY",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/nearby"
+         },
+         {
+            "key" : "FEED_NEAR_LABEL",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/abels"
+         },
+         {
+            "key" : "FEED_PUBLISH",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/publish"
+         },
+         {
+            "key" : "FEED_PUBLISH_H5",
+            "url" : "https://testactivity.me.inke.cn/2"
+         },
+         {
+            "key" : "FEED_RECOMMEND",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/recommend"
+         },
+         {
+            "key" : "FEED_RECOMMEND_TOURIST",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/recommend_tourist"
+         },
+         {
+            "key" : "FEED_RELATED_RECOMMEND",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/related_recommend"
+         },
+         {
+            "key" : "FEED_REPORT",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/report"
+         },
+         {
+            "key" : "FEED_SHARES",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/shares"
+         },
+         {
+            "key" : "FEED_SHOW",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/show"
+         },
+         {
+            "key" : "FEED_TAP",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/tap"
+         },
+         {
+            "key" : "FEED_TAP_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/tap/info"
+         },
+         {
+            "key" : "FEED_TAP_ME_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/tap_me_list"
+         },
+         {
+            "key" : "FEED_TEMPLATE",
+            "url" : "https://testqa.gmugmu.com/api/v2/feed/template"
+         },
+         {
+            "key" : "FEED_TEMPLATE_ACTION",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/template/action"
+         },
+         {
+            "key" : "FEED_TEMPLATE_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/feed/template/action"
+         },
+         {
+            "key" : "FEED_TEMPLATE_V3",
+            "url" : "https://testqa.gmugmu.com/api/v3/feed/template"
+         },
+         {
+            "key" : "FEED_THEME_CONFIG",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/theme/config"
+         },
+         {
+            "key" : "FEED_TOPICS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/topics"
+         },
+         {
+            "key" : "FEED_TOPICS_SEARCH",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/topics/search"
+         },
+         {
+            "key" : "FEED_TOPIC_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/topic_feeds"
+         },
+         {
+            "key" : "FEED_USER_CARD_ACTION",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/user/card/action"
+         },
+         {
+            "key" : "FEED_USER_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/user_feeds"
+         },
+         {
+            "key" : "FEED_USER_TAP",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/user/tap"
+         },
+         {
+            "key" : "FEED_VIDEOS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/videos"
+         },
+         {
+            "key" : "FIRST_FEED_MOD",
+            "url" : "https://testqa.gmugmu.com/api/v2/feed/feed_mod"
+         },
+         {
+            "key" : "FOLLOW_LIST",
+            "url" : "https://testqa.gmugmu.com/api/ugc/v2/follow/list"
+         },
+         {
+            "key" : "FOLLOW_REC_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/follow_rec"
+         },
+         {
+            "key" : "FOLLOW_USER",
+            "url" : "https://testqa.gmugmu.com/api/ugc/v2/follow/user"
+         },
+         {
+            "key" : "GIFT_ICON",
+            "url" : "https://testqa.gmugmu.com/api/v1/gift_wall/business/gift_icon"
+         },
+         {
+            "key" : "GIFT_RESOURCE",
+            "url" : "https://testqa.gmugmu.com/api/v1/gift_wall/business/gift_resource/by_version"
+         },
+         {
+            "key" : "GMU_CONVERSATION_HISTORY_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/conversation/list/history"
+         },
+         {
+            "key" : "GMU_CONVERSATION_HISTORY_V4",
+            "url" : "https://testqa.gmugmu.com/api/v4/im/conversation/list/history"
+         },
+         {
+            "key" : "GMU_CONVERSATION_HISTORY_V5",
+            "url" : "https://testqa.gmugmu.com/api/v5/im/conversation/list/history"
+         },
+         {
+            "key" : "GMU_CONVERSATION_NEW_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/conversation/list/new"
+         },
+         {
+            "key" : "GMU_CONVERSATION_NEW_V4",
+            "url" : "https://testqa.gmugmu.com/api/v4/im/conversation/list/new"
+         },
+         {
+            "key" : "GMU_CONVERSATION_NEW_V5",
+            "url" : "https://testqa.gmugmu.com/api/v5/im/conversation/list/new"
+         },
+         {
+            "key" : "GMU_GROUP_ANNOUNCEMENT_READ_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group_announcement/read"
+         },
+         {
+            "key" : "GMU_GROUP_ANNOUNCEMENT_UPDATE_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group_announcement/update"
+         },
+         {
+            "key" : "GMU_GROUP_CONVERSATION_NOT_DISTURB_STATUS_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group_conversation/not_disturb_status/set"
+         },
+         {
+            "key" : "GMU_GROUP_CONVERSATION_START_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/conversation/start"
+         },
+         {
+            "key" : "GMU_GROUP_INFO_GET_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/info"
+         },
+         {
+            "key" : "GMU_GROUP_INVITE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/invite/list"
+         },
+         {
+            "key" : "GMU_GROUP_MEMBERS_INFO_PAGE_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/members/info/page"
+         },
+         {
+            "key" : "GMU_GROUP_MEMBERS_INFO_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/members/info"
+         },
+         {
+            "key" : "GMU_GROUP_MEMBERS_KICK_BATCH_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/members/kick/batch"
+         },
+         {
+            "key" : "GMU_GROUP_MUTE_SET_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/mute/set"
+         },
+         {
+            "key" : "GMU_GROUP_NOTICES_GET_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/notices/get"
+         },
+         {
+            "key" : "GMU_GROUP_NOTICES_READ_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/notices/read"
+         },
+         {
+            "key" : "GMU_GROUP_NOTICES_UPDATE_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/group/notices/update"
+         },
+         {
+            "key" : "GMU_HALL_BUTTON",
+            "url" : "https://testqa-live.gmugmu.com/api/v2/hall/link_button"
+         },
+         {
+            "key" : "GMU_ICON_IM_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/icon/list"
+         },
+         {
+            "key" : "GMU_IM_CONVERSATION_HISTORY",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/list/history"
+         },
+         {
+            "key" : "GMU_IM_CONVERSATION_LIST_HISTORY_V3",
+            "url" : "https://testqa.gmugmu.com/api/v3/im/conversation/list/history"
+         },
+         {
+            "key" : "GMU_IM_CONVERSATION_LIST_NEW_V3",
+            "url" : "https://testqa.gmugmu.com/api/v3/im/conversation/list/new"
+         },
+         {
+            "key" : "GMU_IM_CONVERSATION_NEW",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/list/new"
+         },
+         {
+            "key" : "GMU_IM_CONVERSATION_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/start"
+         },
+         {
+            "key" : "GMU_IM_CONVERSATION_START_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/conversation/start"
+         },
+         {
+            "key" : "GMU_IM_MESSAGE_FIRST_SCREEN_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/message/first_screen"
+         },
+         {
+            "key" : "GMU_IM_MESSAGE_HISTORY_v2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/message/history"
+         },
+         {
+            "key" : "GMU_IM_MESSAGE_OFFEND_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/offend"
+         },
+         {
+            "key" : "GMU_IM_MESSAGE_RISK_DETECT_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/risk/detect"
+         },
+         {
+            "key" : "GMU_IM_MESSAGE_SEND_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/message/send"
+         },
+         {
+            "key" : "GMU_IM_STICKER_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/sticker/list"
+         },
+         {
+            "key" : "GMU_IM_TOPIC_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/topic/list"
+         },
+         {
+            "key" : "GMU_LIVE_SEND_REWARD",
+            "url" : "https://testqa-live.gmugmu.com/api/activity/task/award/receive"
+         },
+         {
+            "key" : "GMU_Live_GET_TASK_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/activity/task/list"
+         },
+         {
+            "key" : "GMU_SOCIAL_ILIKE_DAY_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/ilike/day"
+         },
+         {
+            "key" : "GMU_SOCIAL_LIKEME_WHO_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/likeme/who"
+         },
+         {
+            "key" : "GMU_TEST_KEY",
+            "url" : "https://testqa.gmugmu.com/api/gmu/test/key"
+         },
+         {
+            "key" : "H5_ABOUT_US",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/about-us/index.html"
+         },
+         {
+            "key" : "H5_ABOUT_US_INDEX",
+            "url" : "http://testqa-hd1.eomapp.cn/views/about/index"
+         },
+         {
+            "key" : "H5_ANCHOR_LEVEL",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/anchor-leve/index.html"
+         },
+         {
+            "key" : "H5_CASH_RECORD",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/cash-record/index.html"
+         },
+         {
+            "key" : "H5_COMMON_ENTRY",
+            "url" : "https://testqamobile1.hngaojia.cn/fe-common/index.html"
+         },
+         {
+            "key" : "H5_COMMON_PROBLEM",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/common-problem/index.html"
+         },
+         {
+            "key" : "H5_INCOME_LIST",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/income/home/index.html"
+         },
+         {
+            "key" : "H5_INCOME_RECORD",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/income-record/index.html"
+         },
+         {
+            "key" : "H5_LIVER_LEVEL",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/anchor-grade/index.html"
+         },
+         {
+            "key" : "H5_LIVE_RECHARGE_PROMOTION",
+            "url" : "https://testqa-h5.gmugmu.com/20200908"
+         },
+         {
+            "key" : "H5_MY_LEVEL",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/my/grade/index.html"
+         },
+         {
+            "key" : "H5_PRIVILEGE_CENTER",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/privilege-center/index.html"
+         },
+         {
+            "key" : "H5_PRIVILEGE_RULE",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/privilege-rule/index.html"
+         },
+         {
+            "key" : "H5_RANK_PRIVILEGE",
+            "url" : "https://testqa-h5.gmugmu.com/innerapp/rank-privilege/index.html"
+         },
+         {
+            "key" : "H5_REPORT_HELP",
+            "url" : "https://testqa-h5.gmugmu.com/403"
+         },
+         {
+            "key" : "H5_WECHAT_GUIDE",
+            "url" : "https://testqa-h5.gmugmu.com/134"
+         },
+         {
+            "key" : "HALL_CHANGE",
+            "url" : "https://testqa-live.gmugmu.com/api/hall/change"
+         },
+         {
+            "key" : "HALL_FOLLOW",
+            "url" : "https://testqa-live.gmugmu.com/api/hall/follow"
+         },
+         {
+            "key" : "HALL_HOME",
+            "url" : "https://testqa-live.gmugmu.com/api/hall/home"
+         },
+         {
+            "key" : "HALL_INFOS",
+            "url" : "https://testqa-live.gmugmu.com/api/hall/infos"
+         },
+         {
+            "key" : "HALL_LINK",
+            "url" : "https://testqa-live.gmugmu.com/api/v2/hall/link"
+         },
+         {
+            "key" : "HALL_PUBLISH_NOW",
+            "url" : "https://testqa-live.gmugmu.com/api/hall/publish_now"
+         },
+         {
+            "key" : "HALL_TV",
+            "url" : "https://testqa-live.gmugmu.com/api/hall/tv"
+         },
+         {
+            "key" : "HIRES_BY_MONTH_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/vipHelp/newhelp10"
+         },
+         {
+            "key" : "HOMEPAGE_CONFIG",
+            "url" : "https://testqa.gmugmu.com/api/v1/homepage/config"
+         },
+         {
+            "key" : "HOT_ARTICLE",
+            "url" : "https://testqa.gmugmu.com/api/community/hotarticle"
+         },
+         {
+            "key" : "IMAGE_SCALE",
+            "url" : "http://imagescale.gmugmu.com/imageproxy2/dimgm/scaleImage?url="
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CONVERSATION_DEL",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/conversation_del"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CONVERSATION_READ",
+            "url" : "https://testqa.gmugmu.com/api/v2/imcenter/message/conversation_read"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CREATE_GROUP",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/create_group"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_FIRST_SCREEN",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/first_screen"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_FIRST_SCREEN_CONVERSATION",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/first_screen_conversation"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_HISTORY_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/history_list"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_JOIN_GROUP",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/join_group"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_KICKOUT_GROUP",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/kickout_group"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_NEW_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/new_list"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_QUIT_GROUP",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/quit_group"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_SEND",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/send"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_UNREAD_COUNT",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/unread_count"
+         },
+         {
+            "key" : "IM_CHAT_FIRST_RESET",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/chat/first/reset"
+         },
+         {
+            "key" : "IM_CONVERASATION_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/start"
+         },
+         {
+            "key" : "IM_CONVERSATION_CLEAR",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/clear"
+         },
+         {
+            "key" : "IM_CONVERSATION_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/delete"
+         },
+         {
+            "key" : "IM_CONVERSATION_LIST_HOSTORY",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/list/history"
+         },
+         {
+            "key" : "IM_CONVERSATION_LIST_NEW",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/conversation/list/new"
+         },
+         {
+            "key" : "IM_FRIEND_NEW_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/friend/new/list"
+         },
+         {
+            "key" : "IM_FRIEND_NEW_RESET_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/friend/new/reset_count"
+         },
+         {
+            "key" : "IM_HINT",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/hint"
+         },
+         {
+            "key" : "IM_HINT_OUTSIDE",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/hint/outside"
+         },
+         {
+            "key" : "IM_HINT_READ",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/hint/read"
+         },
+         {
+            "key" : "IM_LIUBO",
+            "url" : "https://testqa.gmugmu.com/api/im/helpers/liubo"
+         },
+         {
+            "key" : "IM_MESSAGE_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/delete"
+         },
+         {
+            "key" : "IM_MESSAGE_FIRST_SCREEN",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/first_screen"
+         },
+         {
+            "key" : "IM_MESSAGE_HISTORY",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/history"
+         },
+         {
+            "key" : "IM_MESSAGE_NEW",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/new"
+         },
+         {
+            "key" : "IM_MESSAGE_NEW_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/im/message/new"
+         },
+         {
+            "key" : "IM_MESSAGE_READ",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/read"
+         },
+         {
+            "key" : "IM_MESSAGE_SEND",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/message/send"
+         },
+         {
+            "key" : "IM_SUPERLIKE_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/im/superlike/delete"
+         },
+         {
+            "key" : "IM_SUPERLIKE_DETAIL",
+            "url" : "https://testqa.gmugmu.com/api/im/superlike/detail"
+         },
+         {
+            "key" : "IM_SUPERLIKE_MESSAGES",
+            "url" : "https://testqa.gmugmu.com/api/im/superlike/messages"
+         },
+         {
+            "key" : "IM_SUPPERLIKE_READ",
+            "url" : "https://testqa.gmugmu.com/api/im/superlike/read"
+         },
+         {
+            "key" : "IM_TAGS",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/tags"
+         },
+         {
+            "key" : "IM_UNREAD_CLEAR",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/unread/clear"
+         },
+         {
+            "key" : "IM_UNREAD_PRIVATE_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/unread/private"
+         },
+         {
+            "key" : "INTEREST_MEME_EXAMPLE",
+            "url" : "http://testqa-mobile1.eomapp.cn/views/interest/meme"
+         },
+         {
+            "key" : "IOS_VIP_UPGRADE_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/vipHelp/iosSvip"
+         },
+         {
+            "key" : "LINK_DOWN_MIC",
+            "url" : "https://testqa-live.gmugmu.com/api/link/down_mic"
+         },
+         {
+            "key" : "LINK_MIC_STATUS",
+            "url" : "https://testqa-live.gmugmu.com/api/link/mic_status"
+         },
+         {
+            "key" : "LINK_TIME_GETCONFIG",
+            "url" : "https://testqa.gmugmu.com/time/getconfig"
+         },
+         {
+            "key" : "LINK_UP_MIC",
+            "url" : "https://testqa-live.gmugmu.com/api/link/up_mic"
+         },
+         {
+            "key" : "LINK_UP_MIC_CONFIRM",
+            "url" : "https://testqa-live.gmugmu.com/api/link/up_mic_confirm"
+         },
+         {
+            "key" : "LINK_UP_MIC_REPLY",
+            "url" : "https://testqa-live.gmugmu.com/api/link/up_mic_reply"
+         },
+         {
+            "key" : "LIVE_ACT_TIME",
+            "url" : "https://testqa-live.gmugmu.com/api/live/act_time"
+         },
+         {
+            "key" : "LIVE_AUDIT_PKINFO",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/admin_info"
+         },
+         {
+            "key" : "LIVE_FRIEND",
+            "url" : "https://testqa-live.gmugmu.com/api/live/friend"
+         },
+         {
+            "key" : "LIVE_HALL_FOLLOW",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/follow"
+         },
+         {
+            "key" : "LIVE_HALL_HOME",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/home"
+         },
+         {
+            "key" : "LIVE_HALL_LINK",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/link"
+         },
+         {
+            "key" : "LIVE_HALL_LOCATION",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/location"
+         },
+         {
+            "key" : "LIVE_HALL_LOCATION_BUTTON",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/location/button"
+         },
+         {
+            "key" : "LIVE_HALL_RECOMMEND",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/recommend"
+         },
+         {
+            "key" : "LIVE_PK_BILLBOARD_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/billboard/list"
+         },
+         {
+            "key" : "LIVE_PK_FRIEND",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/friend"
+         },
+         {
+            "key" : "LIVE_PK_INVITE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/invite"
+         },
+         {
+            "key" : "LIVE_PK_MATCH",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/match"
+         },
+         {
+            "key" : "LIVE_PK_RESPONSE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/response"
+         },
+         {
+            "key" : "LIVE_PK_STATUS",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/status"
+         },
+         {
+            "key" : "LIVE_PK_STOP_LINK",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/stop_link"
+         },
+         {
+            "key" : "LIVE_PK_SWITCH",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/switch"
+         },
+         {
+            "key" : "LIVE_PK_SWITCH_BEINVITE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/switch/be_invite"
+         },
+         {
+            "key" : "LIVE_PK_SWITCH_BEINVITE_UPDATE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pk/switch/be_invite/update"
+         },
+         {
+            "key" : "LIVE_POKE_SEND",
+            "url" : "https://testqa-live.gmugmu.com/api/live/poke/send"
+         },
+         {
+            "key" : "LIVE_REDPACKET_GIVE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/redpacket/give"
+         },
+         {
+            "key" : "LIVE_REDPACKET_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/redpacket/list"
+         },
+         {
+            "key" : "LIVE_REDPACKET_SELF_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/redpacket/self/list"
+         },
+         {
+            "key" : "LIVE_REDPACKET_SNATCH",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/redpacket/snatch"
+         },
+         {
+            "key" : "LIVE_REDPACKET_SNATCH_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/redpacket/snatch/list"
+         },
+         {
+            "key" : "LIVE_RESOURCE_CONFIG",
+            "url" : "https://testqa-live.gmugmu.com/api/live/resource/list"
+         },
+         {
+            "key" : "LIVE_ROOM_SHARE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/share"
+         },
+         {
+            "key" : "LIVE_ROOM_TIME_REPORT",
+            "url" : "https://testqa-live.gmugmu.com/api/live/room_time_report"
+         },
+         {
+            "key" : "LIVE_SERVICEINFO",
+            "url" : "https://testqa-live.gmugmu.com/serviceinfo/info"
+         },
+         {
+            "key" : "LIVE_TOOLBOX_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/toolbox/list"
+         },
+         {
+            "key" : "LIVE_WIDGET_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/live/widget/list"
+         },
+         {
+            "key" : "LIVE_WINDOW_REPORT",
+            "url" : "https://testqa-live.gmugmu.com/api/live/window_report"
+         },
+         {
+            "key" : "MAIN_SERVER",
+            "url" : "https://testqa.gmugmu.com/"
+         },
+         {
+            "key" : "MERCHANT_FANS",
+            "url" : "https://testqa.gmugmu.com/api/community/v1/merchant/fans"
+         },
+         {
+            "key" : "MERCHANT_FOLLOW",
+            "url" : "https://testqa.gmugmu.com/api/community/v1/merchant/follow"
+         },
+         {
+            "key" : "MERCHANT_FOLLOW_CANCEL",
+            "url" : "https://testqa.gmugmu.com/api/community/v1/merchant/follow/cancel"
+         },
+         {
+            "key" : "MERCHANT_FOLLOW_FANS_LATELY",
+            "url" : "https://testqa.gmugmu.com/api/community/v1/merchant/follow/fans/lately"
+         },
+         {
+            "key" : "MERCHANT_FOLLOW_LIST",
+            "url" : "https://testqa.gmugmu.com/api/community/v1/merchant/follow/list"
+         },
+         {
+            "key" : "MERCHANT_NEAR",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/merchant/near"
+         },
+         {
+            "key" : "MERCHANT_QUERY",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/merchant/query"
+         },
+         {
+            "key" : "MERCHANT_REPORT",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/merchant/report"
+         },
+         {
+            "key" : "MERCHANT_SEARCH_KEYWORD",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/merchant/search/keyword"
+         },
+         {
+            "key" : "MESS_EXPRESS_GREETINGS_LIST",
+            "url" : "https://testqa-live.gmugmu.com/mess/express_greetings/list"
+         },
+         {
+            "key" : "MONITOR_CONFIG",
+            "url" : "https://testqa.gmugmu.com/api/v1/monitor/config"
+         },
+         {
+            "key" : "MOVIE_LOAD_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/movie/load"
+         },
+         {
+            "key" : "MOVIE_RECOMMEND_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/movie/recommend"
+         },
+         {
+            "key" : "MOVIE_SEARCH_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/movie/search"
+         },
+         {
+            "key" : "MUSIC_ADD_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/music/track/add"
+         },
+         {
+            "key" : "MUSIC_RECOMMEND_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/music/recommend"
+         },
+         {
+            "key" : "MUSIC_SEARCH_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/music/search"
+         },
+         {
+            "key" : "NEW_FOLLOW_FEEDS",
+            "url" : "https://testqa.gmugmu.com/api/community/v3/feed/follow"
+         },
+         {
+            "key" : "NOTIFICATION_SWITCH_GET",
+            "url" : "https://testqa.gmugmu.com/api/notification/v1/switch/get"
+         },
+         {
+            "key" : "NOTIFICATION_SWITCH_UPDATE",
+            "url" : "https://testqa.gmugmu.com/api/notification/v1/switch/update"
+         },
+         {
+            "key" : "NOTIFY_GROUP_READ",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/group/read"
+         },
+         {
+            "key" : "NOTIFY_ITEM_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/item_list"
+         },
+         {
+            "key" : "NOTIFY_MATERIAL_UNREAD_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/material/unread_count"
+         },
+         {
+            "key" : "NOTIFY_READ",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/read"
+         },
+         {
+            "key" : "NOTIFY_TAP_ME_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/tap_me_list"
+         },
+         {
+            "key" : "NOTIFY_TEAM_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/team_list"
+         },
+         {
+            "key" : "NOTIFY_TEAM_LIST_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/notify/team_list"
+         },
+         {
+            "key" : "NOTIFY_UNREAD_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/notify/unread_count"
+         },
+         {
+            "key" : "PAYMENT_BALANCE",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/balance"
+         },
+         {
+            "key" : "PAYMENT_BANNER",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/banner"
+         },
+         {
+            "key" : "PAYMENT_CREATE",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/create"
+         },
+         {
+            "key" : "PAYMENT_FIRSTCHARGEBOX_OPEN",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/firstchargebox/open"
+         },
+         {
+            "key" : "PAYMENT_FIRSTCHARGEBOX_STATUS",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/firstchargebox/status"
+         },
+         {
+            "key" : "PAYMENT_FIRST_CHARGE",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/firstCharge"
+         },
+         {
+            "key" : "PAYMENT_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/info"
+         },
+         {
+            "key" : "PAYMENT_NOTICE",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/notice"
+         },
+         {
+            "key" : "PAYMENT_PRODUCT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/payment/v1/product/list"
+         },
+         {
+            "key" : "PAYMENT_V2_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/payment/v2/info"
+         },
+         {
+            "key" : "PAY_PROTOCOL_H5",
+            "url" : "https://activity-static.hngaojia.cn/views/coin/agreementsIos"
+         },
+         {
+            "key" : "PAY_USE_CDKEY",
+            "url" : "https://testqa.gmugmu.com/api/v1/cdkey/use"
+         },
+         {
+            "key" : "PLAY_NEAR_FLIP",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/near/flip"
+         },
+         {
+            "key" : "PLAY_NEAR_TIPS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/near/tips"
+         },
+         {
+            "key" : "PLAY_NEAR_TIPS_ACTION",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/near/tips/action"
+         },
+         {
+            "key" : "PLAY_TEAM_AGREE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/agree"
+         },
+         {
+            "key" : "PLAY_TEAM_APPLY",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/apply"
+         },
+         {
+            "key" : "PLAY_TEAM_APPLY_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/apply/list"
+         },
+         {
+            "key" : "PLAY_TEAM_BATCH_INVITE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/batch/invite"
+         },
+         {
+            "key" : "PLAY_TEAM_CONFIG",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/config"
+         },
+         {
+            "key" : "PLAY_TEAM_CREATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/create"
+         },
+         {
+            "key" : "PLAY_TEAM_CREATE_CHECK",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/create_check"
+         },
+         {
+            "key" : "PLAY_TEAM_DETAIL",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/detail"
+         },
+         {
+            "key" : "PLAY_TEAM_DISMISS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/dismiss"
+         },
+         {
+            "key" : "PLAY_TEAM_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/edit"
+         },
+         {
+            "key" : "PLAY_TEAM_FEEDBACK_REPORT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/feedback/report"
+         },
+         {
+            "key" : "PLAY_TEAM_FEEDBACK_TIPS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/feedback/tips"
+         },
+         {
+            "key" : "PLAY_TEAM_FILTER_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/filter/list"
+         },
+         {
+            "key" : "PLAY_TEAM_HOT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/hot/list"
+         },
+         {
+            "key" : "PLAY_TEAM_IM_SHARE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/im/share"
+         },
+         {
+            "key" : "PLAY_TEAM_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/info"
+         },
+         {
+            "key" : "PLAY_TEAM_INVITE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/invite"
+         },
+         {
+            "key" : "PLAY_TEAM_INVITE_AGREE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/invite/agree"
+         },
+         {
+            "key" : "PLAY_TEAM_JOIN_COMMON",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/join/common"
+         },
+         {
+            "key" : "PLAY_TEAM_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/list"
+         },
+         {
+            "key" : "PLAY_TEAM_MERCHANT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/merchant/list"
+         },
+         {
+            "key" : "PLAY_TEAM_PLACE_IS_OPEN",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/place/is_open"
+         },
+         {
+            "key" : "PLAY_TEAM_SHARE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/share"
+         },
+         {
+            "key" : "PLAY_TEAM_SHARE_H5",
+            "url" : "https://testqa-h5.gmugmu.com/group/share/"
+         },
+         {
+            "key" : "PRIVACY_POLICY_H5",
+            "url" : "https://activity-static.hngaojia.cn/views/vipHelp/newhelp8v2"
+         },
+         {
+            "key" : "PUSH_REGISTER",
+            "url" : "https://testqa.gmugmu.com/api/v1/push/register"
+         },
+         {
+            "key" : "RECALL_ADVERT_ACK",
+            "url" : "https://qa-service.hitup.cn/api/v1/recall/advert/ack"
+         },
+         {
+            "key" : "RECALL_ADVERT_SUGGEST",
+            "url" : "https://qa-service.hitup.cn/api/v1/recall/advert/suggest"
+         },
+         {
+            "key" : "RECOMMEND_BY_MERCHANT",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/recommend_by_merchant"
+         },
+         {
+            "key" : "REGRET_LIKE_STATUS",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/regret_like/status"
+         },
+         {
+            "key" : "RELATION_DISLIKE",
+            "url" : "https://testqa.gmugmu.com/api/relation/dislike"
+         },
+         {
+            "key" : "REMIND_POKE",
+            "url" : "https://testqa.gmugmu.com/api/v1/remind/poke"
+         },
+         {
+            "key" : "REPORT_CHECK_PUSH",
+            "url" : "https://testqa-live.gmugmu.com/v1/report-check/push"
+         },
+         {
+            "key" : "RESOURCE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/resource/list"
+         },
+         {
+            "key" : "RESOURCE_UPLOAD_IMAGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/base/resource/upload/image"
+         },
+         {
+            "key" : "RESOURCE_UPLOAD_VOICE",
+            "url" : "https://testqa.gmugmu.com/api/v1/base/resource/upload/voice"
+         },
+         {
+            "key" : "ROAM_ADD",
+            "url" : "https://testqa.gmugmu.com/api/roam/v1/add"
+         },
+         {
+            "key" : "ROAM_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/roam/v1/delete"
+         },
+         {
+            "key" : "ROAM_DETAIL",
+            "url" : "https://testqa.gmugmu.com/api/roam/v1/detail"
+         },
+         {
+            "key" : "ROAM_ENABLE",
+            "url" : "https://testqa.gmugmu.com/api/roam/v1/enable"
+         },
+         {
+            "key" : "ROAM_LIST",
+            "url" : "https://testqa.gmugmu.com/api/roam/v1/list"
+         },
+         {
+            "key" : "ROOM_ANCHOR_TASK",
+            "url" : "https://testqa-live.gmugmu.com/api/anchor/task"
+         },
+         {
+            "key" : "ROOM_ANCHOR_TASK_IS_DISPLAY",
+            "url" : "https://testqa-live.gmugmu.com/api/anchor/task_pendant/is_display"
+         },
+         {
+            "key" : "ROOM_CONFIG_GET",
+            "url" : "https://testqa-live.gmugmu.com/room_config/ConfigService/Get"
+         },
+         {
+            "key" : "ROOM_LIVE_BUTTON",
+            "url" : "https://testqa-live.gmugmu.com/api/live/button"
+         },
+         {
+            "key" : "ROOM_LIVE_BUTTON_V2",
+            "url" : "https://testqa-live.gmugmu.com/api/v2/live/button"
+         },
+         {
+            "key" : "ROOM_LIVE_COVER_AUDIT",
+            "url" : "https://testqa-live.gmugmu.com/api/live/cover/audit"
+         },
+         {
+            "key" : "ROOM_LIVE_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/live/info"
+         },
+         {
+            "key" : "ROOM_LIVE_KEEPALIVE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/keepalive"
+         },
+         {
+            "key" : "ROOM_LIVE_PRE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/pre"
+         },
+         {
+            "key" : "ROOM_LIVE_STAT",
+            "url" : "https://testqa-live.gmugmu.com/api/live/stat"
+         },
+         {
+            "key" : "ROOM_LIVE_STATISTIC",
+            "url" : "https://testqa-live.gmugmu.com/api/live/statistic"
+         },
+         {
+            "key" : "ROOM_LIVE_STOP",
+            "url" : "https://testqa-live.gmugmu.com/api/live/stop"
+         },
+         {
+            "key" : "ROOM_LIVE_UPDATE",
+            "url" : "https://testqa-live.gmugmu.com/api/live/update"
+         },
+         {
+            "key" : "ROOM_LIVE_UPLOAD_COVER",
+            "url" : "https://testqa-live.gmugmu.com/api/live/upload/cover"
+         },
+         {
+            "key" : "ROOM_TV_BARRAGES",
+            "url" : "https://testqa-live.gmugmu.com/room_action_buz/RoomActionService/RoomTvBarrages"
+         },
+         {
+            "key" : "ROOM_WATCH_HISTORY",
+            "url" : "https://testqa-live.gmugmu.com/api/watch_history"
+         },
+         {
+            "key" : "ROOM_WATCH_HISTORY_DEL_ALL",
+            "url" : "https://testqa-live.gmugmu.com/api/watch_history/delete_all"
+         },
+         {
+            "key" : "ROOM_WATCH_HISTORY_DEL_SINGLE",
+            "url" : "https://testqa-live.gmugmu.com/api/watch_history/delete_single"
+         },
+         {
+            "key" : "SDK_NOTICE_H5",
+            "url" : "https://activity-static.hngaojia.cn/views/vipHelp/sdkNotice"
+         },
+         {
+            "key" : "SELECTION_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/selection/list"
+         },
+         {
+            "key" : "SELECTION_STATS",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/selection/stats"
+         },
+         {
+            "key" : "SELL_ADVERT_ACK",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/advert/ack"
+         },
+         {
+            "key" : "SELL_ADVERT_SUGGEST",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/advert/suggest"
+         },
+         {
+            "key" : "SELL_COIN_PAY",
+            "url" : "https://testqa.gmugmu.com/api/v1/vip/order/coin/pay"
+         },
+         {
+            "key" : "SELL_PACKAGE_CONTENT",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/package/content"
+         },
+         {
+            "key" : "SELL_PRODUCT_BANNER",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/product/banner"
+         },
+         {
+            "key" : "SELL_PRODUCT_BUY_TIPS",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/product/buy/tips"
+         },
+         {
+            "key" : "SELL_PRODUCT_ENTRY",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/product/entry"
+         },
+         {
+            "key" : "SELL_USER_PRIVILEGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/user/privilege"
+         },
+         {
+            "key" : "SERVICE_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/base/serviceinfo/info"
+         },
+         {
+            "key" : "SHORT_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/code/short"
+         },
+         {
+            "key" : "SLIDE_LIKEME_TOP",
+            "url" : "https://testqa.gmugmu.com/api/v1/slide/likeme/top"
+         },
+         {
+            "key" : "SLIDE_TIMES",
+            "url" : "https://testqa.gmugmu.com/api/v1/slide/times"
+         },
+         {
+            "key" : "SLIDE_TIMES_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/slide/times"
+         },
+         {
+            "key" : "SOCIAL_ACTIVITY_CLICK_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/social/myActivityClickCount"
+         },
+         {
+            "key" : "SOCIAL_ANONYMOUS_CHAT_OUT",
+            "url" : "https://testqa.gmugmu.com/api/social/anonymousChatOut"
+         },
+         {
+            "key" : "SOCIAL_ANONYMOUS_WORD",
+            "url" : "https://testqa.gmugmu.com/api/social/AnonymousWord"
+         },
+         {
+            "key" : "SOCIAL_BEGIN_CHAT",
+            "url" : "https://testqa.gmugmu.com/api/social/beginchat"
+         },
+         {
+            "key" : "SOCIAL_BGM_UPDATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/bgm/update"
+         },
+         {
+            "key" : "SOCIAL_BLACKLIST_MOVE",
+            "url" : "https://testqa.gmugmu.com/api/social/moveBlackList"
+         },
+         {
+            "key" : "SOCIAL_BLACK_LIST",
+            "url" : "https://testqa.gmugmu.com/api/social/blackList"
+         },
+         {
+            "key" : "SOCIAL_CHAT_FILTER",
+            "url" : "https://testqa.gmugmu.com/api/social/chatfilter"
+         },
+         {
+            "key" : "SOCIAL_CHAT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/social/chatlist"
+         },
+         {
+            "key" : "SOCIAL_CHAT_MSG_PUAH",
+            "url" : "https://testqa.gmugmu.com/api/social/chatmsgpush"
+         },
+         {
+            "key" : "SOCIAL_CLEAR_ALL_CHAT_RECORD",
+            "url" : "https://testqa.gmugmu.com/api/social/clearallchatrecord"
+         },
+         {
+            "key" : "SOCIAL_CLEAR_CHAT_RECORD",
+            "url" : "https://testqa.gmugmu.com/api/social/clearchatrecord"
+         },
+         {
+            "key" : "SOCIAL_DAY_SLAVE",
+            "url" : "https://testqa.gmugmu.com/api/social/getdayslave"
+         },
+         {
+            "key" : "SOCIAL_DEL_CHAT",
+            "url" : "https://testqa.gmugmu.com/api/social/beginchat"
+         },
+         {
+            "key" : "SOCIAL_DEL_FRIEND",
+            "url" : "https://testqa.gmugmu.com/api/social/delfriend"
+         },
+         {
+            "key" : "SOCIAL_DISCOVER_ANONYMOUS",
+            "url" : "https://testqa.gmugmu.com/api/social/discoverAnonymous"
+         },
+         {
+            "key" : "SOCIAL_DISCOVER_ANONYMOUS_NUM",
+            "url" : "https://testqa.gmugmu.com/api/social/discoverAnonymousNum"
+         },
+         {
+            "key" : "SOCIAL_DISCOVER_FINAL",
+            "url" : "https://testqa.gmugmu.com/api/social/discoverfinal"
+         },
+         {
+            "key" : "SOCIAL_FRIEND_FILTER",
+            "url" : "https://testqa.gmugmu.com/api/social/friendfilter"
+         },
+         {
+            "key" : "SOCIAL_GETCHAT_ACCOUNTID",
+            "url" : "https://testqa.gmugmu.com/api/social/getchatbyaccountid"
+         },
+         {
+            "key" : "SOCIAL_GET_PRIZEDRAW",
+            "url" : "https://testqa.gmugmu.com/api/social/getPrizeDraw"
+         },
+         {
+            "key" : "SOCIAL_GET_PRIZEDRAWS",
+            "url" : "https://testqa.gmugmu.com/api/social/getPrizeDraws"
+         },
+         {
+            "key" : "SOCIAL_INTENT_RANDOM",
+            "url" : "https://testqa.gmugmu.com/api/v2/social/intent/random"
+         },
+         {
+            "key" : "SOCIAL_INTENT_UPDATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/aim/update"
+         },
+         {
+            "key" : "SOCIAL_INTEREST_LABELS ",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/interest/labels"
+         },
+         {
+            "key" : "SOCIAL_INTEREST_RESPECT",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/interest/respect"
+         },
+         {
+            "key" : "SOCIAL_INTEREST_UPDATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/interest/update"
+         },
+         {
+            "key" : "SOCIAL_JOIN_BLACK",
+            "url" : "https://testqa.gmugmu.com/api/social/joinblacklist"
+         },
+         {
+            "key" : "SOCIAL_LABEL_VERIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/label/verify"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_DECRYPT",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/likeme/decrypt"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_RECENT",
+            "url" : "https://testqa.gmugmu.com/api/v2/social/likeme/recent"
+         },
+         {
+            "key" : "SOCIAL_LUCK_DRAW",
+            "url" : "https://testqa.gmugmu.com/api/social/luckDraw"
+         },
+         {
+            "key" : "SOCIAL_MATCH_NEWTIPDEL",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/match/new_tip/del"
+         },
+         {
+            "key" : "SOCIAL_MY_FRIEND",
+            "url" : "https://testqa.gmugmu.com/api/social/myfriend"
+         },
+         {
+            "key" : "SOCIAL_MY_SLAVEONE",
+            "url" : "https://testqa.gmugmu.com/api/social/myslaveone"
+         },
+         {
+            "key" : "SOCIAL_NONSENSE",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/nonsense"
+         },
+         {
+            "key" : "SOCIAL_OPEN_INTRO_GET",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/open_intro/get"
+         },
+         {
+            "key" : "SOCIAL_OPEN_INTRO_RECOMMEND_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/open_intro/recommend/list"
+         },
+         {
+            "key" : "SOCIAL_OPEN_INTRO_SET",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/open_intro/set"
+         },
+         {
+            "key" : "SOCIAL_OPEN_INTRO_UNSET_REPORT",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/open_intro/unset/report"
+         },
+         {
+            "key" : "SOCIAL_ORDER_INPUT",
+            "url" : "https://testqa.gmugmu.com/api/social/orderInput"
+         },
+         {
+            "key" : "SOCIAL_PROFILE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/profile/list"
+         },
+         {
+            "key" : "SOCIAL_PROFILE_SUGGEST",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/profile/suggest"
+         },
+         {
+            "key" : "SOCIAL_PROFILE_SWITCH",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/profile/switch"
+         },
+         {
+            "key" : "SOCIAL_REALTIME_DATA",
+            "url" : "https://testqa.gmugmu.com/api/social/realtimedata"
+         },
+         {
+            "key" : "SOCIAL_RECEIVE_ADD",
+            "url" : "https://testqa.gmugmu.com/api/social/addReceive"
+         },
+         {
+            "key" : "SOCIAL_RECEIVE_DEL",
+            "url" : "https://testqa.gmugmu.com/api/social/delReceive"
+         },
+         {
+            "key" : "SOCIAL_RECEIVE_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/social/editReceive"
+         },
+         {
+            "key" : "SOCIAL_RECEIVE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/social/listReceive"
+         },
+         {
+            "key" : "SOCIAL_REGRET_LIKE",
+            "url" : "https://testqa.gmugmu.com/api/social/regret_like"
+         },
+         {
+            "key" : "SOCIAL_SET_INTENT",
+            "url" : "https://testqa.gmugmu.com/api/social/setintent"
+         },
+         {
+            "key" : "SOCIAL_SLIDE",
+            "url" : "https://testqa.gmugmu.com/api/social/slide"
+         },
+         {
+            "key" : "SOCIAL_SLIDE_LIKE_BATCH",
+            "url" : "https://testqa.gmugmu.com/api/v1/slide/like/batch"
+         },
+         {
+            "key" : "SOCIAL_SUGGEST",
+            "url" : "https://testqa.gmugmu.com/api/v3/social/suggest"
+         },
+         {
+            "key" : "SOCIAL_SUPER_LIKE",
+            "url" : "https://testqa.gmugmu.com/api/social/super_like"
+         },
+         {
+            "key" : "SOCIAL_V2_INTENT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v2/social/intent/list"
+         },
+         {
+            "key" : "SOCIAL_VISITOR_LIKE_BATCH",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/visitor/like/batch"
+         },
+         {
+            "key" : "SOCIAL_VISITOR_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/visitor/list"
+         },
+         {
+            "key" : "SOCIAL_VISITOR_UNREAD_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/visitor/unread_count"
+         },
+         {
+            "key" : "SOCIAL_WINNING_RECORD",
+            "url" : "https://testqa.gmugmu.com/api/social/winningRecord"
+         },
+         {
+            "key" : "SOULMATCH_ACCEPT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/accept"
+         },
+         {
+            "key" : "SOULMATCH_CANCEL",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/cancel"
+         },
+         {
+            "key" : "SOULMATCH_CHECK_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/check_count"
+         },
+         {
+            "key" : "SOULMATCH_DEGREE",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/match_degree"
+         },
+         {
+            "key" : "SOULMATCH_EMOTION_WALL",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/emotion/wall"
+         },
+         {
+            "key" : "SOULMATCH_FATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/fate"
+         },
+         {
+            "key" : "SOULMATCH_FATE_ACTION",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/fate/action"
+         },
+         {
+            "key" : "SOULMATCH_GIFT_WALL",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/gift/wall"
+         },
+         {
+            "key" : "SOULMATCH_INCOME",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/match/income"
+         },
+         {
+            "key" : "SOULMATCH_MATCH_PAGE_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/soulmatch/page"
+         },
+         {
+            "key" : "SOULMATCH_MATCH_RESULT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/match/result"
+         },
+         {
+            "key" : "SOULMATCH_PAGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/page"
+         },
+         {
+            "key" : "SOULMATCH_REFUSE",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/refuse"
+         },
+         {
+            "key" : "SOULMATCH_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/start"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_ACCEPT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/accept"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_CANCEL",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/cancel"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_CHECK_COUNT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/check_count"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_DEL_CHAT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/del_chat"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_ENTRY",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/entry"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_MATCH_RESULT",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/match/result"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_NEARBY_NUM",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/nearby_num"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_REFUSE",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/refuse"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_RELATION_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/relation/delete"
+         },
+         {
+            "key" : "SOULMATCH_TEXT_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/text/start"
+         },
+         {
+            "key" : "SOULMATCH_TOPIC",
+            "url" : "https://testqa.gmugmu.com/api/v1/soulmatch/topic"
+         },
+         {
+            "key" : "SUPEREXPOSURE_REPORT",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/super_exposure/report"
+         },
+         {
+            "key" : "SUPEREXPOSURE_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/super_exposure/start"
+         },
+         {
+            "key" : "SUPEREXPOSURE_STATS",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/super_exposure/stats"
+         },
+         {
+            "key" : "SUPERLIKE_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/relation/delete"
+         },
+         {
+            "key" : "SUPERLIKE_LIST_RECV",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/relation/list/recv"
+         },
+         {
+            "key" : "SUPERLIKE_LIST_SEND",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/relation/list/send"
+         },
+         {
+            "key" : "SUPERLIKE_MESSAGE_HISTORY",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/message/list/peer"
+         },
+         {
+            "key" : "SUPERLIKE_RULES_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/vipHelp/newhelp15"
+         },
+         {
+            "key" : "SUPERLIKE_TRIGGER_REAL",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/trigger_real"
+         },
+         {
+            "key" : "SUPERLIKE_UNREAD_CLEARALL",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/unread/clearall"
+         },
+         {
+            "key" : "SUPER_LIKE_STATUS",
+            "url" : "https://testqa.gmugmu.com/api/v1/superlike/status"
+         },
+         {
+            "key" : "SYSTEM_APPTRACK",
+            "url" : "https://testqa.gmugmu.com/api/system/appTrack"
+         },
+         {
+            "key" : "SYSTEM_APPTRACK_MSG",
+            "url" : "https://testqa.gmugmu.com/api/system/getAppTrackMsg"
+         },
+         {
+            "key" : "SYSTEM_COMPLAIN",
+            "url" : "https://testqa.gmugmu.com/api/system/complain"
+         },
+         {
+            "key" : "SYSTEM_GETAD",
+            "url" : "https://testqa.gmugmu.com/api/system/getAd"
+         },
+         {
+            "key" : "SYSTEM_INTENT_ONE",
+            "url" : "https://testqa.gmugmu.com/api/system/intentone"
+         },
+         {
+            "key" : "SYSTEM_LAST_MSGID",
+            "url" : "https://testqa.gmugmu.com/api/system/getLastMsgId"
+         },
+         {
+            "key" : "SYSTEM_MSG_LISTS",
+            "url" : "https://testqa.gmugmu.com/api/system/getMsgLists"
+         },
+         {
+            "key" : "SYSTEM_SEND_MSG",
+            "url" : "https://testqa.gmugmu.com/api/system/sendMsg"
+         },
+         {
+            "key" : "SYSTEM_SET_CPC",
+            "url" : "https://testqa.gmugmu.com/api/system/setcpc"
+         },
+         {
+            "key" : "SYSTEM_SET_CPM",
+            "url" : "https://testqa.gmugmu.com/api/system/setcpm"
+         },
+         {
+            "key" : "SYSTEM_UPLOAD_COMPLAIN",
+            "url" : "https://testqa.gmugmu.com/api/system/uploadcomplain"
+         },
+         {
+            "key" : "TEAM_LABEL_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/group/rules"
+         },
+         {
+            "key" : "UNSUBSCRIBE_GUIDE_PAGE",
+            "url" : "https://testqa-h5.gmugmu.com/283"
+         },
+         {
+            "key" : "USER_ACTIVE_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/active/info"
+         },
+         {
+            "key" : "USER_AGREEMENT_H5",
+            "url" : "https://activity-static.hngaojia.cn/views/vipHelp/newhelp7"
+         },
+         {
+            "key" : "USER_ANCHOR_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/user/anchor/growth/info"
+         },
+         {
+            "key" : "USER_AUTH",
+            "url" : "https://testqa.gmugmu.com/api/user/userAuth"
+         },
+         {
+            "key" : "USER_AUTH_DESTROY_MOBILE",
+            "url" : "https://testqa.gmugmu.com/api/user/authDestroyMobile"
+         },
+         {
+            "key" : "USER_AUTH_FORGOT_PASSWORD_MOBILE",
+            "url" : "https://testqa.gmugmu.com/api/user/authForgotPasswordMobile"
+         },
+         {
+            "key" : "USER_AUTH_REGISTER_MOBILE",
+            "url" : "https://testqa.gmugmu.com/api/user/authRegisterMobile"
+         },
+         {
+            "key" : "USER_AUTH_TICKETID",
+            "url" : "https://testqa.gmugmu.com/api/user/userAuthTicketId"
+         },
+         {
+            "key" : "USER_AUTH_TOKEN_GET",
+            "url" : "https://testqa.gmugmu.com/api/user/getUserAuthToken"
+         },
+         {
+            "key" : "USER_BLACK",
+            "url" : "https://testqa.gmugmu.com/api/social/joinblacklist"
+         },
+         {
+            "key" : "USER_BLACKLIST",
+            "url" : "https://testqa.gmugmu.com/api/social/blackList"
+         },
+         {
+            "key" : "USER_CAL_CONSTELLATION",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/cal/constellation"
+         },
+         {
+            "key" : "USER_COMPLAIN",
+            "url" : "https://testqa.gmugmu.com/api/system/complain"
+         },
+         {
+            "key" : "USER_COMPLAIN_V2",
+            "url" : "https://testqa.gmugmu.com/api/system/v2/complain"
+         },
+         {
+            "key" : "USER_COVER_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/cover/edit"
+         },
+         {
+            "key" : "USER_DELBLACK",
+            "url" : "https://testqa.gmugmu.com/api/social/moveBlackList"
+         },
+         {
+            "key" : "USER_DEVICE_HEAETBEAT",
+            "url" : "https://testqa.gmugmu.com/api/device/heartbeat"
+         },
+         {
+            "key" : "USER_EASEMOB_RESET",
+            "url" : "https://testqa.gmugmu.com/api/user/easemob/userReset"
+         },
+         {
+            "key" : "USER_FEEDBACK",
+            "url" : "https://testqa-live.gmugmu.com/api/user/feedback"
+         },
+         {
+            "key" : "USER_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/user/info"
+         },
+         {
+            "key" : "USER_JOB_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/job/list"
+         },
+         {
+            "key" : "USER_NOTIFY_BLOCK",
+            "url" : "https://testqa-live.gmugmu.com/notify/block"
+         },
+         {
+            "key" : "USER_NOTIFY_SWITCH",
+            "url" : "https://testqa-live.gmugmu.com/notify/switch"
+         },
+         {
+            "key" : "USER_NOTIFY_UNBLOCK",
+            "url" : "https://testqa-live.gmugmu.com/notify/unblock"
+         },
+         {
+            "key" : "USER_PROFILE_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/profile/edit"
+         },
+         {
+            "key" : "USER_PROFILE_RICHNESS",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/profile/richness"
+         },
+         {
+            "key" : "USER_RELATION_FOLLOWINGS",
+            "url" : "https://testqa-live.gmugmu.com/api/user/relation/followings"
+         },
+         {
+            "key" : "USER_RELATION_FOLLOW_GMU",
+            "url" : "https://testqa.gmugmu.com/api/ugc/v2/follow/user"
+         },
+         {
+            "key" : "USER_RELATION_ISLIKE",
+            "url" : "https://testqa-live.gmugmu.com/api/user/relation/islike"
+         },
+         {
+            "key" : "USER_RELATION_LIST_GMU",
+            "url" : "https://testqa.gmugmu.com/api/ugc/v2/follow/list"
+         },
+         {
+            "key" : "USER_RELATION_RELATION",
+            "url" : "https://testqa-live.gmugmu.com/api/user/relation/relation"
+         },
+         {
+            "key" : "USER_REPORT",
+            "url" : "https://testqa-live.gmugmu.com/api/user/report"
+         },
+         {
+            "key" : "USER_SCHOOL_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/school/list"
+         },
+         {
+            "key" : "USER_SIGN_RANDOM",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/sign/random"
+         },
+         {
+            "key" : "USER_SUBMIT_USER_AUTH_RESULT",
+            "url" : "https://testqa.gmugmu.com/api/user/submitUserAuthResult"
+         },
+         {
+            "key" : "USER_TAG_DEFAULT",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/tag/default"
+         },
+         {
+            "key" : "USER_TAG_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/tag/edit"
+         },
+         {
+            "key" : "VALIDATOR_NICKNAME",
+            "url" : "https://testqa.gmugmu.com/api/user/validatorNickname"
+         },
+         {
+            "key" : "VIEWWX_BIND_WECHAT",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/bind_wechat"
+         },
+         {
+            "key" : "VIEWWX_DEL_GIFT",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/del_gift"
+         },
+         {
+            "key" : "VIEWWX_GIFT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/gift_list"
+         },
+         {
+            "key" : "VIEWWX_GIFT_WALL",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/gift_wall"
+         },
+         {
+            "key" : "VIEWWX_HELP",
+            "url" : "https://testqa-h5.gmugmu.com/views/wx/pay"
+         },
+         {
+            "key" : "VIEWWX_MSG_UNREAD",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/clear_unread_count"
+         },
+         {
+            "key" : "VIEWWX_RECV_GIFT",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/recv_gift"
+         },
+         {
+            "key" : "VIEWWX_REFUSE_GIFT",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/refuse_gift"
+         },
+         {
+            "key" : "VIEWWX_SEND_GIFT",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/send_gift"
+         },
+         {
+            "key" : "VIEWWX_WECHAT",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/wechat"
+         },
+         {
+            "key" : "VIEWWX_WECHAT_STATUS",
+            "url" : "https://testqa.gmugmu.com/api/v1/viewwx/wechat_status"
+         },
+         {
+            "key" : "VIEW_COMMUNITY_TEAM_H5",
+            "url" : "https://mobile1.hngaojia.cn/views/community/offlineGroup"
+         },
+         {
+            "key" : "VIP_COIN_PRODUCT_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/sell/coin/product/list"
+         },
+         {
+            "key" : "VIP_ORDER_PAY",
+            "url" : "https://testqa.gmugmu.com/api/v1/vip/order/pay"
+         },
+         {
+            "key" : "VIP_ORDER_SUBMIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/vip/order/submit"
+         },
+         {
+            "key" : "VIP_ORDER_SUBMIT_CHECK",
+            "url" : "https://testqa.gmugmu.com/api/v1/vip/order/submit/check"
+         },
+         {
+            "key" : "VIP_SERVANT_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/vipHelp/newhelp9"
+         },
+         {
+            "key" : "WALLET_APPLE_NOTIFY",
+            "url" : "https://testqa.gmugmu.com/api/v1/apple/notify/all"
+         },
+         {
+            "key" : "WALLET_CREATE_ORDER",
+            "url" : "https://testqa.gmugmu.com/api/v1/wallet/recharge/order/create"
+         },
+         {
+            "key" : "WALLET_INCOME_DETAIL",
+            "url" : "https://testqa.gmugmu.com/api/v1/wallet/income/detail"
+         },
+         {
+            "key" : "WALLET_PRICE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/wallet/recharge/price/list"
+         },
+         {
+            "key" : "WEEKLY_REPORT",
+            "url" : "https://testqa-h5.gmugmu.com/20200925"
+         },
+         {
+            "key" : "WITHDRAW_PROTOCOL_H5",
+            "url" : "https://testqa-h5.gmugmu.com/views/coin/withdrawRule"
+         },
+         {
+            "key" : "YIMI_MANAGE_BUTTON_DISPLAY",
+            "url" : "https://testqa-live.gmugmu.com/api/manager/button_display"
+         },
+         {
+            "key" : "YIMI_MNG_ACTION_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/manager/action_list"
+         },
+         {
+            "key" : "YIMI_MNG_DEL_CHAT",
+            "url" : "https://testqa-live.gmugmu.com/api/manager/del_forbid"
+         },
+         {
+            "key" : "YIMI_MNG_DEL_KICK",
+            "url" : "https://testqa-live.gmugmu.com/api/manager/del_kick"
+         },
+         {
+            "key" : "YIMI_MNG_HANDLE",
+            "url" : "https://testqa-live.gmugmu.com/api/manager/handle"
+         },
+         {
+            "key" : "YIMI_ROOM_USER_MANAGE_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/manager/list"
+         },
+         {
+            "key" : "YIMI_SHARE_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/share/share_info"
+         },
+         {
+            "key" : "YIMI_SHARE_WECHAT_SIGNATURE",
+            "url" : "https://testqa-live.gmugmu.com/api/share/wechat_signature"
+         },
+         {
+            "key" : "YIMI_SMS_CHECK_CODE",
+            "url" : "https://testqa-live.gmugmu.com/room_action_buz/SmsService/SmsCheckCode"
+         },
+         {
+            "key" : "YIMI_SMS_SEND_MSG",
+            "url" : "https://testqa-live.gmugmu.com/room_action_buz/SmsService/SmsSendMsg"
+         },
+         {
+            "key" : "APP_CONFIG_UPDATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/app/config/update"
+         },
+         {
+            "key" : "PHONE_SEND_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/phone/send_code"
+         },
+         {
+            "key" : "ACCOUNT_PHONE_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/user/account/phone/login"
+         },
+         {
+            "key" : "ACCOUNT_BIND_QUERY",
+            "url" : "https://qaapi.meeshow.com/api/user/account/bind/query"
+         },
+         {
+            "key" : "ACCOUNT_PHONE_JIGUANG_CLICK_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/user/account/oneclick/jiguang/login"
+         },
+         {
+            "key" : "ACCOUNT_PHONE_ONE_CLICK_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/user/account/oneclick/login"
+         },
+         {
+            "key" : "ACCOUNT_THIRDPART_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/user/account/thirdpart/login"
+         },
+         {
+            "key" : "BIND_SEND_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/bind/send_code"
+         },
+         {
+            "key" : "BIND_CHECK_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/bind/check_code"
+         },
+         {
+            "key" : "ACCOUNT_THIRD_BIND",
+            "url" : "https://qaapi.meeshow.com/api/user/account/thirdpart/bind"
+         },
+         {
+            "key" : "REBIND_SEND_CUR_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/rebind/send_cur_code"
+         },
+         {
+            "key" : "REBIND_CHECK_CUR_CODE",
+            "url" : "https://qaapi.meeshow.com/api/v2/user/account/rebind/check_cur_code"
+         },
+         {
+            "key" : "REBIND_SEND_NEW_CODE_V2",
+            "url" : "https://qaapi.meeshow.com/api/v2/user/account/rebind/send_new_code"
+         },
+         {
+            "key" : "REBIND_CHECK_NEW_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/rebind/check_new_code"
+         },
+         {
+            "key" : "USER_VISITOR_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/v2/user/account/visitor/login"
+         },
+         {
+            "key" : "REBIND_SEND_OLD_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/rebind/send_cur_code"
+         },
+         {
+            "key" : "REBIND_SEND_NEW_CODE",
+            "url" : "https://qaapi.meeshow.com/api/user/account/rebind/send_new_code"
+         },
+         {
+            "key" : "ACCOUNT_LOGOFF",
+            "url" : "https://qaapi.meeshow.com/api/user/account/delete"
+         },
+         {
+            "key" : "USER_PROFILE_LOC_UPDATE",
+            "url" : "https://qaapi.meeshow.com/api/v1/users/profile/location/update"
+         },
+         {
+            "key" : "USER_PROFILE_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/users/profile/get"
+         },
+         {
+            "key" : "USER_PROFILE_UPDATE",
+            "url" : "https://qaapi.meeshow.com/api/v1/users/profile/update"
+         },
+         {
+            "key" : "USER_COMMON_PROFILE_UPDATE",
+            "url" : "https://qaapi.meeshow.com/api/v1/users/profile/common/update"
+         },
+         {
+            "key" : "USER_RELATION_FOLLOW_LIST",
+            "url" : "https://qaapi.meeshow.com/api/user/relation/list/follow"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_FOLLOW",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/follow"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_UNFOLLOW",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/unfollow"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_NUMS",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/nums"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_RELATIONS",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/relations"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_LIST_FOLLOW",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/list/followings"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_LIST_FANS",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/list/fans"
+         },
+         {
+            "key" : "USER_RELATIONSHIP_LIST_MUTUAL",
+            "url" : "https://qaapi.meeshow.com/api/user/relationship/list/mutual"
+         },
+         {
+            "key" : "USERCETER_SESSION_LOGOUT",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/session/logout"
+         },
+         {
+            "key" : "ACCOUNT_SESSION_CHECK",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/session/renewal"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_NEW_CONVERSATION",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/new_conversation"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_HISTORY_CONVERSATION",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/history_conversation"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_GROUP_MEMBERS",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/group_members"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_GROUP_DISMISS",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/group_dismiss"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_CONTACT_DEL",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/contact_del"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_FIRST_SCREEN",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/first_screen"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_HISTORY_CONTACT",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/history_contact"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_HISTORY_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/history_list"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_NEW_CONTACT",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/new_contact"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_NEW_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/new_list"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_READ",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/message_read"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_UNREAD_COUNT",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/unread_count"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_ADMINISTRATOR_LIST_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/im/live_room/administrator_list/get"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_FORBID_LIST_GET_V2",
+            "url" : "https://qaapi.meeshow.com/api/v2/im/live_room/forbid_list/get"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_ADMINISTRATOR_CHECK",
+            "url" : "https://qaapi.meeshow.com/api/v1/im/live_room/administrator/check"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_PREPARE",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/prepare"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_START",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/start"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_REFUSE",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/refuse"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_CANCEL",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/cancel"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_STOP",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/stop"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_CALL_INFO",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/call_info/get"
+         },
+         {
+            "key" : "NVWA_MEDIACENTER_CALL_HEART",
+            "url" : "https://qaapi.meeshow.com/api/v1/mediacenter/call/heartbeat"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_APPLY",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/apply"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_APPLY_QUERY",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/apply/query"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_APPLY_ALLOW",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/apply/allow"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_INVITE",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/invite"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_INVITE_ACCEPT",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/invite/accept"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_STOP",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/stop"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_KICK",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/kick"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_HEARTBEAT",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/heartbeat"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_INFO_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/info/get"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_START_IMMEDIATE",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/start"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_APPLY_REFUSED",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/apply/refused"
+         },
+         {
+            "key" : "MEDIA_LINK_MIC_INVITE_REFUSED",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/invite/refused"
+         },
+         {
+            "key" : "MEDIA_LIVE_PREPARE_V2",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/prepare"
+         },
+         {
+            "key" : "MEDIA_LIVE_START_V2",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/start"
+         },
+         {
+            "key" : "MEDIA_LIVE_STOP_V2",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/stop"
+         },
+         {
+            "key" : "MEDIA_LIVE_HEARTBEAT_V2",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/heartbeat"
+         },
+         {
+            "key" : "MEDIA_LOGIC_PUBLISH_ADDR_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/publish_addr/get"
+         },
+         {
+            "key" : "MEDIA_LOGIC_PUBLISH_ADDR_REPORT",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/publish_addr/report"
+         },
+         {
+            "key" : "RESOURCE_GIFTWALL_WALL_TAB_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/wall_tab"
+         },
+         {
+            "key" : "RESOURCE_GIFTWALL_WALL_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/wall"
+         },
+         {
+            "key" : "RESOURCE_GIFTWALL_GIFT_RESOURCE_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/gift_resource"
+         },
+         {
+            "key" : "RESOURCE_GIFTWALL_GIFT_ICON_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/gift_icon"
+         },
+         {
+            "key" : "RESOURCE_GIFTWALL_GIFT_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/gift"
+         },
+         {
+            "key" : "RESOURCE_GIFTWALL_GIFT_DETAIL_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/gift/detail"
+         },
+         {
+            "key" : "COMMERCE_SEND_GIFT_BUZ_SEND",
+            "url" : "https://qaapi.meeshow.com/api/gift/send_buz/send"
+         },
+         {
+            "key" : "DYNCONFIG_CFG_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/base/dynconfig/cfg/get"
+         },
+         {
+            "key" : "LOG_BIGDATA_AUTO_UPLOAD_EVENT",
+            "url" : "https://test-maidian.inke.cn/api/v1/base/log/bigdata/auto_upload_event"
+         },
+         {
+            "key" : "LONG_CONNECTION_CONFIG",
+            "url" : "https://qaapi.meeshow.com/time/getconfig"
+         },
+         {
+            "key" : "SG_FINANCE_ORDER_STATUS",
+            "url" : "https://qaapi.meeshow.com/api/v1/sg/finance/order/status"
+         },
+         {
+            "key" : "MEDIA_LIVE_PREPARE",
+            "url" : "https://qaapi.meeshow.com/api/v2/media/live/prepare"
+         },
+         {
+            "key" : "MEDIA_LIVE_START",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/start"
+         },
+         {
+            "key" : "MEDIA_LIVE_STOP",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/stop"
+         },
+         {
+            "key" : "MEDIA_LIVE_HEARTBEAT",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/heartbeat"
+         },
+         {
+            "key" : "MEDIA_LIVE_INFO_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/info/get"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_AUDIENCES_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/im/live_room/audiences"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_ACTIVE_USERS_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/im/live_room/active_users"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_LIVE_CONTRIBUTORS_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/rankinglist/buz/live/contributor_list"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_CONTRIBUTORS_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/rankinglist/buz/contributor_list"
+         },
+         {
+            "key" : "COMMERCE_BAG_ITEM_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/commerce/bag/item/get"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_SEND",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/send"
+         },
+         {
+            "key" : "MEDIA_LIVE_PERMISSION_CHECK",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/check_can_start"
+         },
+         {
+            "key" : "MEDIA_UPLOAD",
+            "url" : "https://qaapi.meeshow.com/upload/image"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_DEL",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/message_del"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_CONTACT_CLEAR_UNREAD",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/contact_clear_unread"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_CONTACT_COUNT",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/contact_count"
+         },
+         {
+            "key" : "IM_CENTER_MESSAGE_CONTACT_CLEAR",
+            "url" : "https://qaapi.meeshow.com/api/v1/imcenter/message/contact_clear"
+         },
+         {
+            "key" : "IM_CENTER_ROOM_FORBID_LIST_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/im/live_room/forbid_list/get"
+         },
+         {
+            "key" : "CERT_NUM",
+            "url" : "https://qaapi.meeshow.com/api/v1/cert/num/get"
+         },
+         {
+            "key" : "SERVICE_INFO_V2",
+            "url" : "https://qaapi.meeshow.com/api/v2/base/serviceinfo/info"
+         },
+         {
+            "key" : "APP_UPDATE_CHECK",
+            "url" : "https://qaapi.meeshow.com/api/v1/controlcenter/app/version/check"
+         },
+         {
+            "key" : "USERCENATER_ONLINE_HEART",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/online/heartbeat"
+         },
+         {
+            "key" : "USERCENATER_ONLINE_DEVLIST",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/online/dev/list"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CONVERSATION_WITH_TARGETS",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/conversation_with_targets"
+         },
+         {
+            "key" : "USER_CERT_API_TICKET",
+            "url" : "https://qaapi.meeshow.com/api/user/cert_api/ticket"
+         },
+         {
+            "key" : "USER_CERT_API_NOTICE",
+            "url" : "https://qaapi.meeshow.com/api/user/cert_api/notice"
+         },
+         {
+            "key" : "USER_PROFILE_UPDATE_V2",
+            "url" : "https://qaapi.meeshow.com/api/v2/users/profile/update"
+         },
+         {
+            "key" : "IMAGE_UPLOAD_FOR_MONITOR",
+            "url" : "https://qaapi.meeshow.com/api/v1/base/resource/image/upload"
+         },
+         {
+            "key" : "SG_GIFTWALL_GIFT_DETAIL_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v1/gift_wall/business/gift/detail"
+         },
+         {
+            "key" : "MEDIA_LINK_INFO_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/media/live/logic/link/info/get"
+         },
+         {
+            "key" : "CONNECT_CONFIG_REFRESH",
+            "url" : "https://qaapi.meeshow.com/time/getconfig"
+         },
+         {
+            "key" : "USER_CERT_API_TICKET_V2",
+            "url" : "https://qaapi.meeshow.com/api/v2/user/cert_api/ticket"
+         },
+         {
+            "key" : "USER_CERT_API_WASH_WHITE",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/cert_api/washwhite"
+         },
+         {
+            "key" : "LOG_COLLECTION_RESULT_UPDATE",
+            "url" : "https://qaapi.meeshow.com/api/client/diagnosis/log/collection/result/update"
+         },
+         {
+            "key" : "LOG_COLLECTION_STATUS_QUERY",
+            "url" : "https://qaapi.meeshow.com/api/client/diagnosis/log/collection/status/query"
+         },
+         {
+            "key" : "PUSH_DEVICE_REGISTER_URL",
+            "url" : "https://qaapi.meeshow.com/api/push/device/register"
+         },
+         {
+            "key" : "PUSH_REGISTER_URL",
+            "url" : "https://qaapi.meeshow.com/api/push/register"
+         },
+         {
+            "key" : "LONG_CONNECTION_REFRESH",
+            "url" : "https://qaapi.meeshow.com/time/getconfig"
+         },
+         {
+            "key" : "BAR_FLY_CHANGE_TIPS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/change_tips"
+         },
+         {
+            "key" : "BAR_FLY_GAME_DICE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/game_dice"
+         },
+         {
+            "key" : "BAR_FLY_GAME_GRAB_DICE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/game_grab_dice"
+         },
+         {
+            "key" : "BAR_FLY_GAME_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/game_start"
+         },
+         {
+            "key" : "BAR_FLY_ROOM_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/game_start"
+         },
+         {
+            "key" : "BAR_GOODS_SIGNREWARD",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/get_sign_reward"
+         },
+         {
+            "key" : "BAR_TABLE_DETAIL",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/detail"
+         },
+         {
+            "key" : "BARMATCH_TEXT_CANCEL",
+            "url" : "https://testqa.gmugmu.com/api/v1/bar_match/text/cancel"
+         },
+         {
+            "key" : "BAR_BAG_MARKREAD",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/mark_read"
+         },
+         {
+            "key" : "BAR_BAG_MSGUNREAD",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/unread_count"
+         },
+         {
+            "key" : "BAR_BAG_RECVREWARD",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/task_center/recv_reward"
+         },
+         {
+            "key" : "BAR_CALLBACK_LEAVE_POP",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/callback_leave_pop"
+         },
+         {
+            "key" : "BAR_FLY_ROOM_INFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/room_info"
+         },
+         {
+            "key" : "BAR_FLY_ROOM_INIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/room_init"
+         },
+         {
+            "key" : "BAR_HALL_CLEARUNREADNUM",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/clear_unread_msg_num"
+         },
+         {
+            "key" : "BAR_HALL_MAPCONF",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/map_conf"
+         },
+         {
+            "key" : "BAR_HALL_MAPUSERTABLE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/map_user_table_info"
+         },
+         {
+            "key" : "BAR_HALL_NEWMSG",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/new_msg"
+         },
+         {
+            "key" : "BAR_HALL_ONSCREEN",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/on_screen"
+         },
+         {
+            "key" : "BAR_HALL_UNREADNUM",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/unread_msg_info"
+         },
+         {
+            "key" : "BAR_HALL_USERLIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/room_user_list"
+         },
+         {
+            "key" : "BAR_HALL_USERTABLE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/user_table_info"
+         },
+         {
+            "key" : "BAR_LIUBO_GAMESTART",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/game_start"
+         },
+         {
+            "key" : "BAR_LIUBO_TEXTLIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/text_list"
+         },
+         {
+            "key" : "BAR_MSG_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/message_center/list"
+         },
+         {
+            "key" : "BARMATCH_TEXT_GREET",
+            "url" : "https://testqa.gmugmu.com/api/v1/bar_match/text/greet"
+         },
+         {
+            "key" : "BARMATCH_TEXT_RELATION_DELETE",
+            "url" : "https://testqa.gmugmu.com/api/v1/bar_match/text/relation/delete"
+         },
+         {
+            "key" : "BARMATCH_TEXT_SEND_MESSAGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/bar_match/text/send_message"
+         },
+         {
+            "key" : "BARMATCH_TEXT_START",
+            "url" : "https://testqa.gmugmu.com/api/v1/bar_match/text/start"
+         },
+         {
+            "key" : "BAR_COMPOSE_FRAGMENT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/compose_segments"
+         },
+         {
+            "key" : "BAR_GAME_AGREE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game/room_agree"
+         },
+         {
+            "key" : "BAR_GAME_CREATEROOM",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game/room_create"
+         },
+         {
+            "key" : "BAR_GAME_EXIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game/room_exit"
+         },
+         {
+            "key" : "BAR_GAME_INVITE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game/room_invite"
+         },
+         {
+            "key" : "BAR_GAME_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game/list"
+         },
+         {
+            "key" : "BAR_GOODS_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/list_goods"
+         },
+         {
+            "key" : "BAR_HALL_ENTER",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/enter"
+         },
+         {
+            "key" : "BAR_HALL_ISON",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/is_on_hall"
+         },
+         {
+            "key" : "BAR_HALL_LISTMSG",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/user_msg"
+         },
+         {
+            "key" : "BAR_HALL_ONTABLE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/is_on_table"
+         },
+         {
+            "key" : "BAR_HALL_PORTAL",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/portal"
+         },
+         {
+            "key" : "BAR_LIST_RECIPE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/list_wine_recipe"
+         },
+         {
+            "key" : "BAR_LIUBO_GAMESETTING",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/game_setting"
+         },
+         {
+            "key" : "BAR_LIUBO_HEARTBEAT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/heart_beat"
+         },
+         {
+            "key" : "BAR_LIUBO_ROOMINFO",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/room_info"
+         },
+         {
+            "key" : "BAR_LIUBO_SLIDE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/slide"
+         },
+         {
+            "key" : "BAR_TABLE_AGREE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/agree"
+         },
+         {
+            "key" : "BAR_TABLE_APPLY",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/apply"
+         },
+         {
+            "key" : "BAR_TABLE_EDITNAME",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/edit_name"
+         },
+         {
+            "key" : "BAR_TABLE_EDITSTATUS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/edit_status"
+         },
+         {
+            "key" : "BAR_TABLE_LEAVE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/leave"
+         },
+         {
+            "key" : "BAR_TABLE_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/table/list"
+         },
+         {
+            "key" : "BAR_TASKCENTER_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/task_center/list"
+         },
+         {
+            "key" : "BAR_TRANSFER_SEGMENTS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bag/transfer_segments"
+         },
+         {
+            "key" : "USER_AUTH_H5",
+            "url" : "http://devmobile1.eomapp.cn/activitys/91.html"
+         },
+         {
+            "key" : "LICENSE_BUSINESS",
+            "url" : "https://activity-h5.hngaojia.cn/697"
+         },
+         {
+            "key" : "LICENSE_VALUE_ADD_TELECOM",
+            "url" : "https://activity-h5.hngaojia.cn/696"
+         },
+         {
+            "key" : "LICENSE_NETWORK_CULTURE",
+            "url" : "https://activity-h5.hngaojia.cn/695"
+         },
+         {
+            "key" : "FEED_SPECIAL_SUBJECT",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/special_subject"
+         },
+         {
+            "key" : "FEED_SPECIAL_SUBJECT_TAB",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/special_subject/tab"
+         },
+         {
+            "key" : "BAR_H5_WINEGUIDE",
+            "url" : "https://activity-h5.hngaojia.cn/710"
+         },
+         {
+            "key" : "BAR_LIUBO_GAMEOVER",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_liubo/game_over"
+         },
+         {
+            "key" : "BAR_FLY_HEARTBEAT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/game_fly/heart_beat"
+         },
+         {
+            "key" : "INTEREST_MESSAGE_SET",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/interest_message/set"
+         },
+         {
+            "key" : "BAR_BAG_TASK_REDDOT",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/task_center/red_dot"
+         },
+         {
+            "key" : "IMAGE_UPLOAD",
+            "url" : "https://upload.hitup.cn/api/v1/base/resource/image/upload"
+         },
+         {
+            "key" : "GMU_IM_STICKER_HOT",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/sticker/hot"
+         },
+         {
+            "key" : "GMU_IM_STICKER_SEARCH",
+            "url" : "https://testqa.gmugmu.com/api/v1/im/sticker/search"
+         },
+         {
+            "key" : "SOCIAL_PERSONALISE_SWITCH",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/switch"
+         },
+         {
+            "key" : "SOCIAL_POP_UPS",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/pop_ups"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_HOME",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/home"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_CREATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/create"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_DETAIL",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/detail"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_MANAGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/manage"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_JOURNEY",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/journey"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_DISMISS",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/dismiss"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_SHARE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/share"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_CONFIG",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/config"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_ISOPEN",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/place/is_open"
+         },
+         {
+            "key" : "PLAY_ACTIVITY_QUERY",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/activity/query"
+         },
+         {
+            "key" : "PLAY_PROGRESS_ACTIVITY_QUERY",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/activity/progress/query"
+         },
+         {
+            "key" : "GMU_UPLOAD_IMAGE",
+            "url" : "https://upload.hitup.cn/api/v1/base/resource/image/upload"
+         },
+         {
+            "key" : "GMU_UPLOAD_VOICE",
+            "url" : "https://upload.hitup.cn/api/v1/base/resource/voice/upload"
+         },
+         {
+            "key" : "GMU_UPLOAD_MEDIA",
+            "url" : "https://upload.hitup.cn/api/v1/base/resource/media/upload"
+         },
+         {
+            "key" : "GMU_FLEET_START_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/fleet/start"
+         },
+         {
+            "key" : "GMU_FLEET_GIVE_UP_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/fleet/give_up"
+         },
+         {
+            "key" : "GMU_FLEET_ORDER_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/fleet/order"
+         },
+         {
+            "key" : "GMU_FLEET_UP_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/fleet/up"
+         },
+         {
+            "key" : "GMU_FLEET_DOWN_V1",
+            "url" : "https://testqa.gmugmu.com/api/v1/fleet/down"
+         },
+         {
+            "key" : "USER_PROFILE_EDIT_SMS_SEND",
+            "url" : "https://testqa.gmugmu.com/api/v1/user/profile_edit/sms/send"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_CREDIT_PROTOCOL",
+            "url" : "https://mobile1.hngaojia.cn/views/group/scriptKillRule.html"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_BLACK_CREATE",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/black/create"
+         },
+         {
+            "key" : "PLAY_TEAM_DRAMA_BOOK_SEARCH",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/drama/black/books"
+         },
+         {
+            "key" : "RISK_SDK_SWITCH",
+            "url" : "https://testrisk.busi.inkept.cn/api/risk/v1/sdk_switch/get"
+         },
+         {
+            "key" : "BAR_CLOSE_POPUP",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/bar/hall/close_popup"
+         },
+         {
+            "key" : "PLAY_TEAM_JOIN",
+            "url" : "https://testqa.gmugmu.com/api/v1/play/team/join"
+         },
+         {
+            "key" : "FEED_TAB_GET",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/tab/get"
+         },
+         {
+            "key" : "FEED_TAB_EDIT",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/tab/edit"
+         },
+         {
+            "key" : "FEED_TAB_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/feed/tab/list"
+         },
+         {
+            "key" : "CONTENT_TOPICS_LIST",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/topic/list"
+         },
+         {
+            "key" : "CONTENT_TOPICS_SQUARE",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/topic/square"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_TAB_REC",
+            "url" : "https://testqa.gmugmu.com/api/v1/community/content/tab_rec"
+         },
+         {
+            "key" : "FEED_ALL_BLOCKS",
+            "url" : "https://testqa.gmugmu.com/api/community/v2/feed/blocks"
+         },
+         {
+            "key" : "SOCIAL_ACTIVITY_MESSAGE_SET",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/activity_message/set"
+         },
+         {
+            "key" : "SOCIAL_SEND_MESSAGE",
+            "url" : "https://testqa.gmugmu.com/api/v1/social/send_message"
+         },
+         {
+            "key" : "ACTIVITY_HOME_POP",
+            "url" : "https://testqa.gmugmu.com/api/v1/activity/wonderful/get_user_pop"
+         },
+         {
+            "key" : "ACTIVITY_HOME_POP_CALL_BACK",
+            "url" : "https://testqa.gmugmu.com/api/v1/activity/wonderful/save_user_pop"
+         },
+         {
+            "key" : "TEMP_IMAGE_SCALE",
+            "url" : "http://testqa-imagescale.inke.cn/imageproxy2/dimgm/scaleImage?url="
+         },
+         {
+            "key" : "IMAGE_SCALE_V2",
+            "url" : "http://testqa-imagescale.inke.cn/imageproxy2/dimgm/scaleImage?url="
+         },
+         {
+            "key" : "GMU_PERMISSION_STATEMENT",
+            "url" : "https://activity-h5.hngaojia.cn/742"
+         },
+         {
+            "key" : "VIP_ORDER_SUBMIT_V2",
+            "url" : "https://testqa.gmugmu.com/api/v2/vip/order/submit"
+         },
+         {
+            "key" : "RECALL_ACTIVITY_POPUP",
+            "url" : "https://qa-service.hitup.cn/api/v1/recall/activity/popup"
+         },
+         {
+            "key" : "RECALL_ACTION_POPUP",
+            "url" : "https://qa-service.hitup.cn/api/v1/recall/action/popup"
+         },
+         {
+            "key" : "RECALL_ACTION_DONE",
+            "url" : "https://qa-service.hitup.cn/api/v1/recall/action/done"
+         },
+         {
+            "key" : "ACCOUNT_STATUS_CHECK",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/status/check"
+         },
+         {
+            "key" : "ACCOUNT_PASSWORD_SET",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/password/set"
+         },
+         {
+            "key" : "ACCOUNT_PASSWORD_SET_CHECK_CODE",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/password/set/check_code"
+         },
+         {
+            "key" : "ACCOUNT_PASSWORD_SET_SEND_CODE",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/password/set/send_code"
+         },
+         {
+            "key" : "ACCOUNT_PASSWORD_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/password/login"
+         },
+         {
+            "key" : "USER_INFO_COLLECT_H5",
+            "url" : "https://mobile1.hngaojia.cn/views/vipHelp/userInfoList"
+         },
+         {
+            "key" : "SOCIAL_STATIC_CONTEXT",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/static_context"
+         },
+         {
+            "key" : "SOCIAL_SILENCE_MESSAGE",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/silence_message"
+         },
+         {
+            "key" : "INTEREST_TAB_INIT",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/tab/init"
+         },
+         {
+            "key" : "INTEREST_TAB_GET",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/tab/get"
+         },
+         {
+            "key" : "FEED_SAYHI",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/sayhi"
+         },
+         {
+            "key" : "FEED_CONTENT_FOLLOW_TOPICS",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/content/follow/topics"
+         },
+         {
+            "key" : "AD_INFO_GET",
+            "url" : "https://qa-service.hitup.cn/api/v1/ad/get"
+         },
+         {
+            "key" : "AD_EVENT_UPLOAD",
+            "url" : "https://qa-service.hitup.cn/api/v1/ad/event_upload"
+         },
+         {
+            "key" : "APPCONFIG_INFRASTRUCT",
+            "url" : "https://qa-service.hitup.cn/api/v1/app/config/infrastructure"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CLEAR_CONVERSATION",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/clear_conversation_msg"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CONVERSATION_SET_UNDISTURBED",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/conversation_set_undisturbed"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_GROUP_TRANS",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/group_trans"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CLEAR_ALL_UNREAD",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/clear_all_unread"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_DELETE_MSG",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/delete_msg"
+         },
+         {
+            "key" : "EMAIL_SEND_CODE",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/email/send_code"
+         },
+         {
+            "key" : "ACCOUNT_EMAIL_LOGIN",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/email/login"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_GET_CONVERSATION_UNREAD",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/get_conversation_unread"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_CONVERSATION_SET_TOP",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/conversation_set_top"
+         },
+         {
+            "key" : "ACCOUNT_PHONE_ONE_CLICK_BIND",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/oneclick/bind"
+         },
+         {
+            "key" : "COMMUNITY_SAYHI_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/tap"
+         },
+         {
+            "key" : "COMMUNITY_SAYHI_REPLY_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/user/back_tap"
+         },
+         {
+            "key" : "COMMUNITY_SAYHI_LIST_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/tap_me/list"
+         },
+         {
+            "key" : "COMMUNITY_SAYHI_INFO_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/tap/info"
+         },
+         {
+            "key" : "COMMUNITY_SAYHI_ME_COUNT_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/tap_me/count"
+         },
+         {
+            "key" : "COMMUNITY_SAYHI_ME_COUNT_CLEAR",
+            "url" : "https://qa-service.hitup.cn/api/v2/feed/tap_me/count/clear"
+         },
+         {
+            "key" : "FINANCECENTRE_COIN_BALANCE_GET",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/coin/account/balance"
+         },
+         {
+            "key" : "FINANCECENTER_COIN_COIN_TRANSFER",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/coin/exchange"
+         },
+         {
+            "key" : "FINANCECENTER_COIN_ORDER_CREATE",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/coin/order/create"
+         },
+         {
+            "key" : "FINANCECENTER_COIN_RECORD_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/coin/account/record/list"
+         },
+         {
+            "key" : "FINANCECENTER_PAYMENT_ORDER_ACK",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/payment/order/ack"
+         },
+         {
+            "key" : "FINANCECENTER_PAYMENT_ORDER_CREATE",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/payment/order/create"
+         },
+         {
+            "key" : "SOCIAL_NOTE_GIFT_RECV",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/gift/recv"
+         },
+         {
+            "key" : "SOCIAL_NOTE_GIFT_COUNT",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/gift/count"
+         },
+         {
+            "key" : "SOCIAL_NOTE_GIFT_WALL",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/gift_wall"
+         },
+         {
+            "key" : "SOCIAL_NOTE_RELATION_DEL",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/relation/del"
+         },
+         {
+            "key" : "SOCIAL_NOTE_SHOW",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/show"
+         },
+         {
+            "key" : "SOCIAL_NOTE_SEND",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/send"
+         },
+         {
+            "key" : "PLAY_MEOW_ENTRY",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/entry"
+         },
+         {
+            "key" : "PLAY_MEOW_STYLE_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/style/list"
+         },
+         {
+            "key" : "PLAY_MEOW_PROFILE_EDIT",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/pofile/edit"
+         },
+         {
+            "key" : "PLAY_MEOW_HOME",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/home"
+         },
+         {
+            "key" : "PLAY_MEOW_MY",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/my"
+         },
+         {
+            "key" : "PLEY_MEOW_RELATION_RELIEVE",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/relation/relieve"
+         },
+         {
+            "key" : "PLAY_MEOW_FLY_STAR",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/star/fly"
+         },
+         {
+            "key" : "PLAY_MEOW_CATCH_STAR",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/star/catch"
+         },
+         {
+            "key" : "PLAY_MEOW_DISCARD_STAR",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/star/discard"
+         },
+         {
+            "key" : "PLAY_MEOW_REPLY_STAR",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/meow/star/reply"
+         },
+         {
+            "key" : "SOCIAL_NOTE_RULE",
+            "url" : "https://activity-h5.hngaojia.cn/1063"
+         },
+         {
+            "key" : "CASH_EXCHANGE_LIST_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/cash/exchange/list"
+         },
+         {
+            "key" : "WALLET_BILL_TAB",
+            "url" : "https://qa-service.hitup.cn/api/v2/wallet/bill/tab"
+         },
+         {
+            "key" : "WALLET_BILL_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v2/wallet/bill/list"
+         },
+         {
+            "key" : "FEED_INTEREST_CIRCLE_REC",
+            "url" : "https://qa-service.hitup.cn/api/v1/community/content/interest_circle_rec"
+         },
+         {
+            "key" : "FEED_V1_PUBLISH_TEMPLATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/publish_template"
+         },
+         {
+            "key" : "ASA_API",
+            "url" : "https://qa-service.hitup.cn/gtd/key-event-collect/api/asa"
+         },
+         {
+            "key" : "LIVE_PARTY_SIGN_IN",
+            "url" : "https://qa-service.hitup.cn/api/activity/task/award/receive"
+         },
+         {
+            "key" : "LIVE_PARTY_SIGN_IN_LIST",
+            "url" : "https://qa-service.hitup.cn/api/activity/task/list"
+         },
+         {
+            "key" : "LIVE_PARTY_STICKER_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/live/sticker/list/get"
+         },
+         {
+            "key" : "LIVE_DECORATION_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/decoration/list"
+         },
+         {
+            "key" : "LIVE_DECORATION_TOGGLE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/decoration/toggle"
+         },
+         {
+            "key" : "LIVE_ROOM_CONFIG",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room_config"
+         },
+         {
+            "key" : "HALL_LINK_V3",
+            "url" : "https://testqa-live.gmugmu.com/api/v3/live/hall/link"
+         },
+         {
+            "key" : "HALL_RANDOM_HOME_V1",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/random/home"
+         },
+         {
+            "key" : "HALL_ENTER_V1",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/enter"
+         },
+         {
+            "key" : "GIFT_BATCH_SEND",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/batch/send"
+         },
+         {
+            "key" : "GIFT_LOG_BATCH_UPLOAD",
+            "url" : "https://testqa-live.gmugmu.com/api/gift/log/batch/upload"
+         },
+         {
+            "key" : "LIVE_ROOM_CMD_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/cmd_list"
+         },
+         {
+            "key" : "LIVE_ROOM_ADMIN",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/admin"
+         },
+         {
+            "key" : "LIVE_PARTY_AGREEMENT",
+            "url" : "https://activity-h5.hngaojia.cn/1193"
+         },
+         {
+            "key" : "WALLET_BALANCE",
+            "url" : "https://qa-service.hitup.cn/api/v1/wallet/balance"
+         },
+         {
+            "key" : "ROOM_LIVE_START",
+            "url" : "https://testqa-live.gmugmu.com/api/live/start"
+         },
+         {
+            "key" : "SYSTEM_APPEAL_SUBMIT",
+            "url" : "https://qa-service.hitup.cn/api/system/appeal/submit"
+         },
+         {
+            "key" : "SYSTEM_APPEAL_INFO_PRE",
+            "url" : "https://qa-service.hitup.cn/api/system/appeal/info/preview"
+         },
+         {
+            "key" : "SOCIAL_POPUP_TRIGGER",
+            "url" : "https://qa-service.hitup.cn/api/v1/popup/trigger"
+         },
+         {
+            "key" : "SELL_PRODUCT_LIST_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/sell/product/list"
+         },
+         {
+            "key" : "ACCOUNT_UNBIND",
+            "url" : "https://qaapi.meeshow.com/api/v1/user/account/unbind"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_WITHDRAW",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/withdraw"
+         },
+         {
+            "key" : "IMCENTER_MESSAGE_V2_MSG_STATUS_LIST",
+            "url" : "https://qaapi.meeshow.com/api/v2/imcenter/message/msg_status_list"
+         },
+         {
+            "key" : "FEED_NOTIFY_VOTE_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/notify/vote"
+         },
+         {
+            "key" : "FEED_VOTE_CHOOSE",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/vote/choose"
+         },
+         {
+            "key" : "GMU_LIVE_ROOM_MANAGER_ADD",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/manager/add"
+         },
+         {
+            "key" : "GMU_LIVE_ROOM_MANAGER_DEL",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/manager/del"
+         },
+         {
+            "key" : "GMU_LIVE_ROOM_MANAGER_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/manager/list"
+         },
+         {
+            "key" : "FEED_MY_TIPS_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/my_tips"
+         },
+         {
+            "key" : "GMU_LIVE_ROOM_BOTTOM_BUTTON",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/bottom/button"
+         },
+         {
+            "key" : "GMU_LIVE_ROOM_BAN_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/ban/list"
+         },
+         {
+            "key" : "LIVE_MIC_APPLY_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/mic_apply_list"
+         },
+         {
+            "key" : "ROOM_FREE_MIC_TOGGLE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/free_mic/toggle"
+         },
+         {
+            "key" : "ROOM_FREE_MIC_STATUS",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/free_mic/status"
+         },
+         {
+            "key" : "ROOM_MANAGER_H5",
+            "url" : "https://activity-h5.hngaojia.cn/1263"
+         },
+         {
+            "key" : "SOCIAL_NOTE_GIFT_STATUS_SEND",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/gift/status/send"
+         },
+         {
+            "key" : "SOCIAL_MATCH_POPUP",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/match_popup"
+         },
+         {
+            "key" : "COMMUNITY_CONTENT_VIDEO_FEEDS",
+            "url" : "https://qa-service.hitup.cn/api/v1/community/content/video_feeds"
+         },
+         {
+            "key" : "FEED_CONFIG_INFO",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/config/info"
+         },
+         {
+            "key" : "LIVE_HALL_IM_ENTER",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/im_enter"
+         },
+         {
+            "key" : "GIFT_WALL_INFO",
+            "url" : "https://qa-service.hitup.cn/api/v1/gift_wall/info"
+         },
+         {
+            "key" : "ACCOUNT_LOGIN_QUICKLY",
+            "url" : "https://qa-service.hitup.cn/api/v1/account/login/quickly"
+         },
+         {
+            "key" : "SEC_IDENTITY_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/sec_identity/list"
+         },
+         {
+            "key" : "SET_SEC_IDENTITY",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/sec_identity/set"
+         },
+         {
+            "key" : "DISCHARGE_SEC_IDENTITY",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/sec_identity/discharge"
+         },
+         {
+            "key" : "LIVE_USER_PUBLISH",
+            "url" : "https://testqa-live.gmugmu.com/api/live/user_publish"
+         },
+         {
+            "key" : "ROOM_TITLE_RANDOM",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/title_random"
+         },
+         {
+            "key" : "FEED_TOP_OPERATE_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/top_operate"
+         },
+         {
+            "key" : "FEED_FRIEND_SHARE_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/friend/share"
+         },
+         {
+            "key" : "FEED_FRIEND_SHARED_LIST_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/friend_shared/list"
+         },
+         {
+            "key" : "FEED_SHOW_STATUS_UPDATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/show_status/update"
+         },
+         {
+            "key" : "PRIVATE_CHAT_SEND",
+            "url" : "https://qa-service.hitup.cn/api/v1/private_chat/send"
+         },
+         {
+            "key" : "PRIVATE_CHAT_DEL",
+            "url" : "https://qa-service.hitup.cn/api/v1/private_chat/del"
+         },
+         {
+            "key" : "LIVE_ROOM_TYPE_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room_type/list"
+         },
+         {
+            "key" : "LOG_UPLOAD_TOKEN",
+            "url" : "https://apm-ali.hitup.cn/api/upload/token"
+         },
+         {
+            "key" : "PAY_SENDGIFT_IM",
+            "url" : "https://qa-service.hitup.cn/api/v1/pay/sendgift/im/send"
+         },
+         {
+            "key" : "GIFT_IM_SHOW",
+            "url" : "https://qa-service.hitup.cn/api/v1/pay/gift_wall/im/show"
+         },
+         {
+            "key" : "SOCIAL_NOTE_SEND_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/note/send"
+         },
+         {
+            "key" : "LUBAN_RADAR_CONFIG_GET",
+            "url" : "https://qaapi.meeshow.com/api/luban/radar/config/get"
+         },
+         {
+            "key" : "GMU_CONVERSATION_ENTRANCE",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/conversation/entrance"
+         },
+         {
+            "key" : "LIVE_PLAY_MATCH_HEARTBEAT_CHOOSE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/match/heartbeat_choose"
+         },
+         {
+            "key" : "LIVE_PLAY_MATCH_UP_MIC_CHOICE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/match/up_mic_choice"
+         },
+         {
+            "key" : "LIVE_MATCH_UP_MIC_CMD",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/match/up_mic_cmd"
+         },
+         {
+            "key" : "LIVE_PLAY_COMMON_SWITCH",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/common/switch"
+         },
+         {
+            "key" : "LIVE_PLAY_COMMON_STOP",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/common/stop"
+         },
+         {
+            "key" : "LIVE_PLAY_COMMON_START",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/common/start"
+         },
+         {
+            "key" : "LINK_GET_MIC_INFO",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/get_mic_info"
+         },
+         {
+            "key" : "LIVE_LINK_INVITE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/invite"
+         },
+         {
+            "key" : "LIVE_LINK_APPLY",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/apply"
+         },
+         {
+            "key" : "LIVE_LINK_REFUSE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/refuse"
+         },
+         {
+            "key" : "LIVE_LINK_ACCEPT",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/accept"
+         },
+         {
+            "key" : "LIVE_LINK_APPLY_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/apply_list"
+         },
+         {
+            "key" : "LIVE_LINK_INVITE_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/match/invite_list"
+         },
+         {
+            "key" : "LIVE_LINK_STOP",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/stop"
+         },
+         {
+            "key" : "MATCH_HEARTBEAT_WALL_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/173.html"
+         },
+         {
+            "key" : "MATCH_PLAY_RULE",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/174.html"
+         },
+         {
+            "key" : "MATCH_PLAY_RULE_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/174.html"
+         },
+         {
+            "key" : "LIVE_LINK_MIC_STATUS",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/link/mic_status"
+         },
+         {
+            "key" : "SELL_PRODUCT_EXCHANGE",
+            "url" : "https://qa-service.hitup.cn/api/v1/sell/product/exchange"
+         },
+         {
+            "key" : "SELL_PRODUCT_EXCHANGE_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/sell/product/exchange/list"
+         },
+         {
+            "key" : "IM_HINT_ALL",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/hint/all"
+         },
+         {
+            "key" : "IM_MESSAGE_STATUS_BATCH",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/message/status/batch"
+         },
+         {
+            "key" : "SOCIAL_NOTE_GIFT_RECV_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/note/gift/recv"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_LATEST_USER",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/likeme/latest_user"
+         },
+         {
+            "key" : "IM_ICEBREAKER_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/icebreaker/list"
+         },
+         {
+            "key" : "CARD_SHOW_INFO",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/card_show/info"
+         },
+         {
+            "key" : "LIVE_HALL_HOME_PAGE_ENTER",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/hall/home_page_enter"
+         },
+         {
+            "key" : "LIVE_CHATROOM_PLAY_RECOMMEND",
+            "url" : "https://activity-h5.hngaojia.cn/1279"
+         },
+         {
+            "key" : "GET_EXTRA_CONFIG",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/extra_config/get"
+         },
+         {
+            "key" : "ROOM_PWD_CHECK",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/room/password/check"
+         },
+         {
+            "key" : "CHATROOM_TOTAL_LIST_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/178.html"
+         },
+         {
+            "key" : "ENCRYPT_UPLOAD_IMAGE",
+            "url" : "https://qa-service.hitup.cn/api/v1/encryption/upload/image"
+         },
+         {
+            "key" : "NOTIFY_UNREAD_NEW",
+            "url" : "https://qa-service.hitup.cn/api/v1/notify/unread_new"
+         },
+         {
+            "key" : "IM_NEW_FRIENDS_RECOMMEND_READ",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/new_friends/recommend/read"
+         },
+         {
+            "key" : "IM_NEW_FRIENDS_AVATAR_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/new_friends/recommend/list"
+         },
+         {
+            "key" : "SHARE_LIVE_FEED_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/share_live_feed"
+         },
+         {
+            "key" : "CASH_WITHDRAW_RECORD_TIME_RANGE",
+            "url" : "https://qa-service.hitup.cn/api/v1/cash/withdraw/record/time_range"
+         },
+         {
+            "key" : "CASH_WITHDRAW_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/cash/withdraw"
+         },
+         {
+            "key" : "CASH_WITHDRAW_RECORD",
+            "url" : "https://qa-service.hitup.cn/api/v1/cash/withdraw/record"
+         },
+         {
+            "key" : "CASH_WITHDRAW_INFO",
+            "url" : "https://qa-service.hitup.cn/api/v1/cash/withdraw/info"
+         },
+         {
+            "key" : "CASH_WITHDRAW_PRE",
+            "url" : "https://qa-service.hitup.cn/api/v1/cash/withdraw/pre"
+         },
+         {
+            "key" : "CASH_ACCOUNT_BIND_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/cash/account/bind"
+         },
+         {
+            "key" : "NFT_MALL_GOODS_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/mall/goods/list"
+         },
+         {
+            "key" : "NFT_GOODS_INFO",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/mall/goods/info"
+         },
+         {
+            "key" : "NFT_ASSETS_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/assets/list"
+         },
+         {
+            "key" : "NFT_ASSETS_INFO",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/assets/info"
+         },
+         {
+            "key" : "NFT_ASSETS_UPDATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/assets/update"
+         },
+         {
+            "key" : "NFT_SHARE",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/share"
+         },
+         {
+            "key" : "NFT_GOODS_SALE",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/mall/goods/sale"
+         },
+         {
+            "key" : "NFT_GOODS_GIVEUP",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/mall/goods/give_up"
+         },
+         {
+            "key" : "ACCOUNT_LOGIN_IS_AUTO",
+            "url" : "https://qa-service.hitup.cn/api/v1/account/login/auto"
+         },
+         {
+            "key" : "LIVE_SEND_NOTICE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/send_notice"
+         },
+         {
+            "key" : "LIVE_PLAY_MIC_CHARM_CLEAR",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/mic/charm/clear"
+         },
+         {
+            "key" : "LIVE_PLAY_MIC_COUNTDOWN_SET",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/mic/countdown/set"
+         },
+         {
+            "key" : "LIVE_PLAY_MIC_ADMIN",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/play/mic/admin"
+         },
+         {
+            "key" : "ACCOUNT_CHECK_UNBIND",
+            "url" : "https://qaapi.meeshow.com/api/user/account/check_unbind"
+         },
+         {
+            "key" : "ACCOUNT_PHONE_ONE_CLICK_MOB",
+            "url" : "https://qaapi.meeshow.com/api/user/account/oneclick/mob/login"
+         },
+         {
+            "key" : "LIVE_PLAY_CHAT_DEL",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/play/chat/del"
+         },
+         {
+            "key" : "ACTION_UPLOAD",
+            "url" : "https://qa-service.hitup.cn/api/v1/client/action/upload"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_NEW_COUNT_CLEAR",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/likeme/new_count/clear"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_LATEST_USER_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/social/likeme/latest_user"
+         },
+         {
+            "key" : "GMU_SOCIAL_ILIKE_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/ilike/list"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_RECENT_V3",
+            "url" : "https://qa-service.hitup.cn/api/v3/social/likeme/recent"
+         },
+         {
+            "key" : "NOTIFY_UNREAD_COUNT_TYPE",
+            "url" : "https://qa-service.hitup.cn/api/v1/notify/unread_count/by_type"
+         },
+         {
+            "key" : "FEED_NOTIFY_INTERACTION",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/notify/interaction"
+         },
+         {
+            "key" : "COMMUNITY_FEED_MATCH",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/match"
+         },
+         {
+            "key" : "SOCIAL_OPEN_INTRO_SWITCH_STATUS",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/open_intro/switch/status"
+         },
+         {
+            "key" : "SOCIAL_OPEN_INTRO_SWITCH_UPDATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/open_intro/switch/update"
+         },
+         {
+            "key" : "SUPERLIKE_NOTE_GIVE",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/give"
+         },
+         {
+            "key" : "SUPERLIKE_NOTE_GIVE_QUESTIONNAIRE",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/give/questionnaire"
+         },
+         {
+            "key" : "SOCIAL_POPUPS_EXPOSURE",
+            "url" : "https://qa-service.hitup.cn/api/v1/popup/exposure"
+         },
+         {
+            "key" : "SOCIAL_POPUPS_DISPATCHER",
+            "url" : "https://qa-service.hitup.cn/api/v1/popup/dispatcher"
+         },
+         {
+            "key" : "ASSETS_TRANSFER",
+            "url" : "https://qa-service.hitup.cn/api/v1/nft/assets/transfer"
+         },
+         {
+            "key" : "SOCIAL_POPUP_ACTION_EVENT",
+            "url" : "https://qa-service.hitup.cn/api/v1/popup/action_event"
+         },
+         {
+            "key" : "SOCIAL_SLIDE_CARD_QUESTION",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/slide/question"
+         },
+         {
+            "key" : "SOCIAL_SLIDE_ANSWER_COMMIT",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/answer/submit"
+         },
+         {
+            "key" : "SOCIAL_QUESTION_USER_PAPER",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/question/user/paper"
+         },
+         {
+            "key" : "SOCIAL_LIKE_ME_SVIP",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/likeme/svip"
+         },
+         {
+            "key" : "SOCIAL_LIKEME_SVIP_RECENT",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/likeme/svip/recent"
+         },
+         {
+            "key" : "GET_QUICK_SPEAK_LIST",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/quick_speak/list"
+         },
+         {
+            "key" : "IM_REMIND_SEND_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/remind/send"
+         },
+         {
+            "key" : "IM_REMIND_POPUP_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/remind/popup"
+         },
+         {
+            "key" : "FAST_MATCH_GIFT_RECEIVE_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/gift/receive"
+         },
+         {
+            "key" : "FAST_MATCH_GIFT_SEND_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/gift/send"
+         },
+         {
+            "key" : "FAST_MATCH_RELATION_DEL",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/relation/delete"
+         },
+         {
+            "key" : "FAST_MATCH_CANCEL_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/cancel"
+         },
+         {
+            "key" : "FAST_MATCH_REFUSE_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/refuse"
+         },
+         {
+            "key" : "FAST_MATCH_ACCEPT_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/accept"
+         },
+         {
+            "key" : "FAST_MATCH_START_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/start"
+         },
+         {
+            "key" : "FAST_MATCH_ENTRY_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/entry"
+         },
+         {
+            "key" : "FAST_MATCH_CALL_CHECK_RESULT_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/fast_match/call_check_result"
+         },
+         {
+            "key" : "FEED_ICEBREAKER_SAYHI",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/ice_breaker/sayhi"
+         },
+         {
+            "key" : "FEED_ICEBREAKER_SAYHI_BATCH",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/ice_breaker/sayhi/batch"
+         },
+         {
+            "key" : "FEED_ICEBREAKER_SAYHI_TEXT",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/ice_breaker/sayhi_text"
+         },
+         {
+            "key" : "SOCIAL_SUITABLE_RECOMMEND",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/suitable/recommend"
+         },
+         {
+            "key" : "SOCIAL_SUITABLE_PRIVATE_CHAT",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/suitable/private_chat"
+         },
+         {
+            "key" : "FEED_SHOW_STATUS_UPDATE_CHECK_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/show_status/update/check"
+         },
+         {
+            "key" : "FEED_EXPOSURE_GOODS_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/exposure/goods"
+         },
+         {
+            "key" : "FEED_EXPOSURE_VALIDATE_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/exposure/validate"
+         },
+         {
+            "key" : "FEED_EXPOSURE_REPORT_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/exposure/report"
+         },
+         {
+            "key" : "FEED_EXPOSURE_START_V1",
+            "url" : "https://qa-service.hitup.cn/api/v1/feed/exposure/start"
+         },
+         {
+            "key" : "HARMONY_WOMAN_PAPER_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/205.html?showType=2&from=harmony"
+         },
+         {
+            "key" : "LIVE_FAST_SHARE",
+            "url" : "https://testqa-live.gmugmu.com/api/v1/live/fast_share"
+         },
+         {
+            "key" : "SOCIAL_QUESTION_HARMONY_PAPER_COMMIT",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/question/harmony/paper/commit"
+         },
+         {
+            "key" : "SOCIAL_QUESTION_HARMONY_PAPER",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/question/harmony/paper"
+         },
+         {
+            "key" : "TASK_AD_GET",
+            "url" : "https://qa-service.hitup.cn/api/v1/task/ad/get"
+         },
+         {
+            "key" : "TASK_AD_UPLOAD",
+            "url" : "https://qa-service.hitup.cn/api/v1/task/ad/upload"
+         },
+         {
+            "key" : "MULTI_UPLOAD_TOKEN",
+            "url" : "https://upload.hitup.cn/api/upload/multi/token"
+         },
+         {
+            "key" : "FINANCE_WITHDRAWAL_ABROAD_ORDER_CREATE",
+            "url" : "https://qaapi.meeshow.com/api/finance/withdrawal/abroad/order/create"
+         },
+         {
+            "key" : "FINANCE_WITHDRAWAL_HTML",
+            "url" : "https://qaapi.meeshow.com/withdraw/index.html"
+         },
+         {
+            "key" : "FINANCE_WITHDRAWAL_HISTOTY_LIST",
+            "url" : "https://qaapi.meeshow.com/api/finance/withdrawal/history/list"
+         },
+         {
+            "key" : "FINANCE_WITHDRAWAL_CONFIG",
+            "url" : "https://qaapi.meeshow.com/api/finance/withdrawal/config"
+         },
+         {
+            "key" : "FINANCE_WITHDRAWAL_BALANCE",
+            "url" : "https://qaapi.meeshow.com/api/finance/withdrawal/balance"
+         },
+         {
+            "key" : "SOCIAL_SUITABLE_CLICK",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/suitable/card/click"
+         },
+         {
+            "key" : "SOCIAL_QUESTION_INVITATION",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/question/im/invitation"
+         },
+         {
+            "key" : "SOCIAL_QUESTION_PAPER_ISSUE_UPDATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/question/im/update"
+         },
+         {
+            "key" : "SOCIAL_QUESTION_PAPER_ISSUE",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/question/im/issue"
+         },
+         {
+            "key" : "FINANCE_ABROAD_ORDER_CREATE",
+            "url" : "https://qaapi.meeshow.com/api/finance/payment/abroad/order/create"
+         },
+         {
+            "key" : "NOTE_BATCH_SEND",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/batch/send"
+         },
+         {
+            "key" : "FINANCE_PRODUCT_INFO",
+            "url" : "https://qaapi.meeshow.com/api/finance/product/info"
+         },
+         {
+            "key" : "FINANCE_PRODUCT_LIST",
+            "url" : "https://qaapi.meeshow.com/api/finance/product/list"
+         },
+         {
+            "key" : "FINANCE_H5_RECHARGE_MONITOR_JS",
+            "url" : "https://qaapi.meeshow.com/rechargeMonitor/recharge-monitor.js"
+         },
+         {
+            "key" : "IM_MESSAGE_READ_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/im/message/read"
+         },
+         {
+            "key" : "PLAY_HEART_WECHAT_BIND",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/heart_wechat/bind"
+         },
+         {
+            "key" : "HEART_WECHAT_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/250.html"
+         },
+         {
+            "key" : "WECHAT_DESC_H5",
+            "url" : "https://activity-h5.hngaojia.cn/1848"
+         },
+         {
+            "key" : "PLAY_HEART_WECHAT_RECEIPT",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/heart_wechat/receipt"
+         },
+         {
+            "key" : "HEART_WECHAT_PRE_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/251.html"
+         },
+         {
+            "key" : "HEART_WECHAT_ONLINE_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/252.html"
+         },
+         {
+            "key" : "HEART_WECHAT_TRANSITION_H5",
+            "url" : "https://testqamobile1.hngaojia.cn/activitys/250.html"
+         },
+         {
+            "key" : "PLAY_HEART_WECHAT_UNLOCK",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/heart_wechat/unlock"
+         },
+         {
+            "key" : "PLAY_HEART_WECHA_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/heart_wechat/list"
+         },
+         {
+            "key" : "HEART_WECHAT_CONTACT_DEL",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/heart_wechat/contact/del"
+         },
+         {
+            "key" : "TEST123",
+            "url" : "https://testqa.gmugmu.com/time/getconfig"
+         },
+         {
+            "key" : "FINANCECENTER_ORDER_STATUS",
+            "url" : "https://qaapi.meeshow.com/api/v1/finance/order/status"
+         },
+         {
+            "key" : "SOCIAL_VISITOR_UNLOCKED_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v2/social/visitor/unlocked_list"
+         },
+         {
+            "key" : "SOCIAL_VISITOR_LIST_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/social/visitor/list"
+         },
+         {
+            "key" : "ONEONE_CHANGE_ANCHOR_WOKRSTATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/oneone/anchor/workstate"
+         },
+         {
+            "key" : "VIDEOCHAT_ANCHOR_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/users/recommend"
+         },
+         {
+            "key" : "VIDEOCHAT_PREPARE",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/prepare"
+         },
+         {
+            "key" : "VIDEOCHAT_CANCEL",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/cancel"
+         },
+         {
+            "key" : "VIDEOCHAT_START",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/start"
+         },
+         {
+            "key" : "VIDEOCHAT_REFUSE",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/refuse"
+         },
+         {
+            "key" : "VIDEOCHAT_HEARTBEAT",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/heartbeat"
+         },
+         {
+            "key" : "VIDEOCHAT_STOP",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/stop"
+         },
+         {
+            "key" : "VIDEOCHAT_DEL_RELATION",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/relation/delete"
+         },
+         {
+            "key" : "H5_COMMUNITY_RULE",
+            "url" : "https://activity-h5.hngaojia.cn/1895"
+         },
+         {
+            "key" : "H5_VIDEOCHAT_ANCHOR_RULE",
+            "url" : "https://activity-h5.hngaojia.cn/1896"
+         },
+         {
+            "key" : "H5_ANTIFRAUD_NOTE",
+            "url" : "https://activity-h5.hngaojia.cn/1894"
+         },
+         {
+            "key" : "VIDEOCHAT_USER_STATUS",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/user_status"
+         },
+         {
+            "key" : "PAY_QUESTION_H5",
+            "url" : "https://mobile1.hngaojia.cn/views/vipHelp/newIndex"
+         },
+         {
+            "key" : "PAY_AGREEMENT_H5",
+            "url" : "https://mobile1.hngaojia.cn/views/vipHelp/newhelp9"
+         },
+         {
+            "key" : "SELL_PRIVILEGE_ENTRY",
+            "url" : "https://qa-service.hitup.cn/api/v1/sell/privilege/entry"
+         },
+         {
+            "key" : "SELL_PRIVILEGE_CENTER_TABS",
+            "url" : "https://qa-service.hitup.cn/api/v1/sell/privilege/center/tabs"
+         },
+         {
+            "key" : "SELL_PRIVILEGE_CENTER",
+            "url" : "https://qa-service.hitup.cn/api/v1/sell/privilege/center"
+         },
+         {
+            "key" : "ACCOUNT_ONE_KEY_BIND_CHECK",
+            "url" : "https://qaapi.meeshow.com/api/user/account/one_key_bind/check"
+         },
+         {
+            "key" : "ACCOUNT_ONE_KEY_BIND",
+            "url" : "https://qaapi.meeshow.com/api/user/account/one_key_bind/bind"
+         },
+         {
+            "key" : "SOCIAL_HIDE_UPDATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/social/hide/update"
+         },
+         {
+            "key" : "OAUTH_CODE_GET",
+            "url" : "https://qa-service.hitup.cn/api/v1/oauth/code/get"
+         },
+         {
+            "key" : "PRIVATE_CHAT_TO_SSVIP",
+            "url" : "https://qa-service.hitup.cn/api/v1/private_chat/to_ssvip"
+         },
+         {
+            "key" : "PRIVATE_CHAT_TO_SSVIP_DEL",
+            "url" : "https://qa-service.hitup.cn/api/v1/private_chat/to_ssvip/del"
+         },
+         {
+            "key" : "PLAY_HEART_WECHA_LIST_V2",
+            "url" : "https://qa-service.hitup.cn/api/v2/play/heart_wechat/list"
+         },
+         {
+            "key" : "ONEONE_GET_ANCHOR_WOKRSTATE",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/oneone/anchor/workstate/get"
+         },
+         {
+            "key" : "OPENID_GET",
+            "url" : "https://qa-service.hitup.cn/api/v1/open_id/get"
+         },
+         {
+            "key" : "VIDEOCHAT_ACK_MESSAGE",
+            "url" : "https://qa-service.hitup.cn/api/v1/play/videochat/message/ack"
+         },
+         {
+            "key" : "SOCIAL_NOTE_SEND_FREE",
+            "url" : "https://qa-service.hitup.cn/api/v1/note/gift/send_free"
+         },
+         {
+            "key" : "IM_CONVERSATION_TOPPEER_SET",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/conversation/top_peer/set"
+         },
+         {
+            "key" : "IM_CONVERSATION_TOPPEER_PRESTATUS",
+            "url" : "https://qa-service.hitup.cn/api/v1/im/conversation/top_peer/pre_status"
+         },
+         {
+            "key" : "SELL_SSVIP_PRODUCT_LIST",
+            "url" : "https://qa-service.hitup.cn/api/v1/sell/ssvip/product/list"
+         }
+      ]
+   },
+   "dm_error" : 0,
+   "error_msg" : "操作成功"
+}
