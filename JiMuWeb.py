@@ -13,11 +13,11 @@ from flask import Flask
 from pywebio.platform.flask import webio_view
 
 # JiMu support
-from modules.api.JiMuClient import JiMuClient
+from JiMuAPI import JiMuAPI
 
 app = Flask(__name__)
 # 初始化JiMuClient
-jmc = JiMuClient()
+jmc = JiMuAPI()
 
 # 读取配置文件
 webapp_config = configparser.ConfigParser()
@@ -225,7 +225,7 @@ def get_user_info(target_uid: int):
 @pywebio_config(theme='minty', title=title, description=description)
 def main():
     # 设置favicon
-    logo_url = "https://raw.githubusercontent.com/Evil0ctal/JiMu-APP-Client/main/client/logo.png"
+    logo_url = "https://raw.githubusercontent.com/Evil0ctal/JiMu-APP-Client/main/logo/logo.png"
     session.run_js(f"""
                $('#favicon32,#favicon16').remove(); 
                $('head').append('<link rel="icon" type="image/png" href={logo_url}>')

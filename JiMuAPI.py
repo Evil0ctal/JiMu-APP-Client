@@ -13,7 +13,7 @@ import json
 from typing import Optional
 
 
-class JiMuClient:
+class JiMuAPI:
 
     def __init__(self):
         self.headers = {
