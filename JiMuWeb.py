@@ -221,6 +221,19 @@ def get_user_info(target_uid: int):
             put_link('返回首页', '/')
 
 
+def about():
+    put_html('<hr>')
+    put_markdown('''
+    # 关于
+    ## 项目地址
+    - [GitHub](https://github.com/Evil0ctal/JiMu-APP-Client)
+    ## 作者
+    - [Evil0ctal](https://github.com/Evil0ctal)
+    ''')
+    # 显示当前版本
+    put_markdown(f'当前版本：{version}')
+
+
 # 程序入口/Main interface
 @pywebio_config(theme='minty', title=title, description=description)
 def main():
@@ -281,7 +294,9 @@ if __name__ == '__main__':
     port = int(webapp_config['port'])
     host = webapp_config['host']
     # 使用PyWebIO启动网页APP
-    start_server(main, port=port, host=host, debug=True)
+    # start_server(main, port=port, host=host, debug=True)
+
     # 使用Flask启动网页APP
-    # app.add_url_rule('/', 'webio_view', webio_view(main), methods=['GET', 'POST', 'OPTIONS'])
-    # app.run(host=host, port=port)
+    app.add_url_rule('/', 'root', webio_view(main), methods=['GET', 'POST', 'OPTIONS'])
+    app.add_url_rule('/about', 'about', webio_view(about), methods=['GET', 'POST', 'OPTIONS'])
+    app.run(host=host, port=port)
