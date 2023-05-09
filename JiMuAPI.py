@@ -122,8 +122,8 @@ class JiMuAPI:
 
 
 if __name__ == '__main__':
-    client = JiMuClient()
+    client = JiMuAPI()
     asyncio.run(client.login(1, 4080000000, "Admin123456"))
     print(client.sid)
     print(client.uid)
-    print(asyncio.run(client.get_user_info(2889383)))
+    print(asyncio.run(client.get_user_info(123456)))
