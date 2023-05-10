@@ -212,17 +212,28 @@ def get_user_info(target_uid: int):
             put_link('返回首页', '/')
 
 
+@pywebio_config(theme='minty', title=title, description=description)
 def about():
-    put_html('<hr>')
-    put_markdown('''
-    # 关于
+    # 修改footer
+    session.run_js("""$('footer').remove()""")
+    put_markdown(f'''
+    ## 关于本项目
+    - 本项目是一个基于积目APP的第三方客户端，使用Python语言编写，使用PyWebIO作为前后端框架，使用`JiMuAPI.py`作为后端API支持。
+    - 本项目主要是方便各位开发者对积目APP的API进行学习和研究，同时也可以作为一个第三方客户端使用。
+    - 本项目仅支持积目APP的部分功能，不支持积目APP的所有功能，更多功能正在开发中，欢迎提交PR。
+    - 本项目仅供学习交流使用，不得用于非法用途，本项目的开发者不对使用本项目造成的任何后果负责。
+    - 域名：[https://via-jimu.icu/](https://via-jimu.icu/) - `Via JiMu, I See You.`
+    - GitHub：[Evil0ctal](https://github.com/Evil0ctal/)
+    - 微信：Evil0ctal
     ## 项目地址
-    - [GitHub](https://github.com/Evil0ctal/JiMu-APP-Client)
+    - [https://github.com/Evil0ctal/JiMu-APP-Client](https://github.com/Evil0ctal/JiMu-APP-Client)
     ## 作者
     - [Evil0ctal](https://github.com/Evil0ctal)
+    ## 版本
+    - 当前版本：[`{version}`](https://github.com/Evil0ctal/JiMu-APP-Client/releases/)
     ''')
-    # 显示当前版本
-    put_markdown(f'当前版本：{version}')
+    put_html('<hr>')
+    put_link('返回首页', '/')
 
 
 # 程序入口/Main interface
@@ -247,7 +258,7 @@ def main():
                     </p>
                     """)
     # 顶部标题
-    put_markdown(f"""<div align='center' ><font size='6'>{title}-{version}</font></div>""")
+    put_markdown(f"""<div align='center' ><font size='6'>{title}</font></div>""")
     put_html('<hr>')
     put_row([put_link('首页', '/'),
              put_link('关于', '/about'),
@@ -285,8 +296,7 @@ def main():
                            help_text='📎输入一个数字然后点击提交，积目APP上在个人主页右上角可以找到用户ID。',
                            placeholder='1234567')
         get_user_info(target_uid)
-    # put_markdown("`Via JiMu, I See You.`")
-    # put_markdown("[https://via-jimu.icu/](https://via-jimu.icu/)")
+
 
 
 if __name__ == '__main__':
