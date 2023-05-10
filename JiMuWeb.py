@@ -28,6 +28,18 @@ title = webapp_config['title']
 version = webapp_config['version']
 description = webapp_config['description']
 
+# 演示模式
+demo_mode, demo_sid, demo_uid = (True, webapp_config['demo_sid'], webapp_config['demo_uid']) \
+    if webapp_config['demo_mode'] == 'True' else (False, None, None)
+
+
+def demo_mode_notification():
+    if demo_mode:
+        put_html('<br>')
+        put_markdown('已开启Demo模式，为安全考虑该功能不可用，其他功能正常使用。')
+        put_link('返回首页', '/')
+        return True
+
 
 def register():
     clear('account')
@@ -40,14 +52,6 @@ def register():
 def login():
     clear('account')
     with use_scope('account'):
-        # 演示模式
-        demo_mode = True if webapp_config['demo_mode'] == 'True' else False
-        jmc.sid = webapp_config['demo_sid'] if demo_mode else None
-        jmc.uid = webapp_config['demo_uid'] if demo_mode else None
-        if demo_mode:
-            put_html('<br>')
-            put_markdown('已开启Demo模式，为安全考虑该功能不可用，其他功能正常使用。')
-            put_link('返回首页', '/')
         # 读取Cookie判断是否已经登录
         sid = get_cookie('sid')
         uid = get_cookie('uid')
@@ -163,10 +167,15 @@ def display_account_data(data: dict):
 
 def get_self_info():
     try:
-        sid = get_cookie('sid')
-        uid = get_cookie('uid')
-        if not sid or not uid:
-            login()
+        # 检查demo
+        if not demo_mode:
+            sid = get_cookie('sid')
+            uid = get_cookie('uid')
+            if not sid or not uid:
+                login()
+        else:
+            sid = demo_sid
+            uid = demo_uid
         data = asyncio.run(jmc.get_self_info(sid, uid))
         put_html('<hr>')
         # 显示账户信息
@@ -273,10 +282,18 @@ def main():
         register()
     # 登录
     if select_options == options[1]:
-        login()
+        # 检查演示模式
+        if demo_mode:
+            demo_mode_notification()
+        else:
+            login()
     # 登出
     elif select_options == options[2]:
-        logout()
+        # 检查演示模式
+        if demo_mode:
+            demo_mode_notification()
+        else:
+            logout()
     # 查询本人信息
     elif select_options == options[3]:
         get_self_info()
