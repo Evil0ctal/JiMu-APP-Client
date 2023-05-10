@@ -231,6 +231,10 @@ def about():
     - [Evil0ctal](https://github.com/Evil0ctal)
     ## 版本
     - 当前版本：[`{version}`](https://github.com/Evil0ctal/JiMu-APP-Client/releases/)
+    ## 功能
+    ### V1.0
+    - 支持登录积目账号(国家代码、手机号、密码)
+    - 支持获取用户信息(账户信息、封面)
     ''')
     put_html('<hr>')
     put_link('返回首页', '/')
@@ -266,7 +270,7 @@ def main():
              put_link('积目APP官网', 'https://www.hitup.cn', new_window=True),
              ])
     # 要求用户输入选择
-    options = ['注册', '登录', '退出登录', '查询本人信息', '查询他人信息']
+    options = ['注册', '登录', '登出', '查询本人信息', '查询他人信息', '用户上线通知', '用户账号分析', '批量喜欢附近的人', '修改账号位置', '接入ChatGPT自动聊天']
     select_options = select('请选择一个选项以继续', required=True,
                             options=options,
                             help_text='📎选上面的选项然后点击提交')
@@ -296,7 +300,26 @@ def main():
                            help_text='📎输入一个数字然后点击提交，积目APP上在个人主页右上角可以找到用户ID。',
                            placeholder='1234567')
         get_user_info(target_uid)
-
+    # 监控用户上线时间
+    elif select_options == options[5]:
+        # monitor_online_time()
+        put_markdown('该功能正在开发中，敬请期待！')
+    # 用户账号分析
+    elif select_options == options[6]:
+        # user_account_analysis()
+        put_markdown('该功能正在开发中，敬请期待！')
+    # 批量喜欢附近的人
+    elif select_options == options[7]:
+        # batch_like_nearby_users()
+        put_markdown('该功能正在开发中，敬请期待！')
+    # 修改账号位置
+    elif select_options == options[8]:
+        # change_account_location()
+        put_markdown('该功能正在开发中，敬请期待！')
+    # 接入ChatGPT自动聊天
+    elif select_options == options[9]:
+        # chat_gpt()
+        put_markdown('该功能正在开发中，敬请期待！')
 
 
 if __name__ == '__main__':
