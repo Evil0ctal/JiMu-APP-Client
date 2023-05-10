@@ -112,7 +112,7 @@ class JiMuAPI:
         if sid and self_uid:
             url = f"{self.service_host}/api/account/getUser?cv=GM5.5.90_Android&sid={sid}&uid={self_uid}"
             payload = {
-                "from": 0,
+                "from": 1,
                 "id": target_uid
             }
             response = await self.post(url, payload)

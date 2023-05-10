@@ -66,7 +66,7 @@ def login():
                 put_markdown('你已经登录了！')
                 put_buttons(['退出登录'], onclick=[logout])
                 put_link('返回首页', '/')
-                return
+                return sid, uid
                 # 未登录则显示登录界面
         data = input_group('登录积目', [
             input('国家代码', name='country_code', type=TEXT, required=True, help_text='📎输入国家代码',
@@ -94,7 +94,7 @@ def login():
                 # 设置Cookie
                 set_cookie('sid', jmc.sid)
                 set_cookie('uid', jmc.uid)
-                return jmc
+                return jmc.sid, jmc.uid
         except ValueError as e:
             with use_scope('account'):
                 put_html('<hr>')
@@ -195,10 +195,12 @@ def get_user_info(target_uid: int):
             sid = get_cookie('sid')
             uid = get_cookie('uid')
             if not sid or not uid:
-                login()
+                sid, uid = login()
         else:
             sid = demo_sid
             uid = demo_uid
+        if target_uid == -1:
+            target_uid = uid
         data = asyncio.run(jmc.get_user_info(target_uid, sid, uid))
         print(data)
         put_html('<hr>')
@@ -293,7 +295,7 @@ def main():
             logout()
     # 查询本人信息
     elif select_options == options[3]:
-        get_user_info(demo_uid)
+        get_user_info(-1)
     # 查询他人信息
     elif select_options == options[4]:
         target_uid = input('请输入要查询的用户UID', type=NUMBER, required=True,
