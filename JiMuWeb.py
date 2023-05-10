@@ -165,29 +165,6 @@ def display_account_data(data: dict):
         put_link('返回首页', '/')
 
 
-def get_self_info():
-    try:
-        # 检查demo
-        if not demo_mode:
-            sid = get_cookie('sid')
-            uid = get_cookie('uid')
-            if not sid or not uid:
-                login()
-        else:
-            sid = demo_sid
-            uid = demo_uid
-        data = asyncio.run(jmc.get_self_info(sid, uid))
-        put_html('<hr>')
-        # 显示账户信息
-        display_account_data(data)
-    except ValueError as e:
-        with use_scope('account'):
-            put_html('<hr>')
-            put_markdown(f'获取用户信息失败！{e}')
-            put_buttons(['重新登录'], onclick=[login])
-            put_link('返回首页', '/')
-
-
 def display_images(data):
     img_list = data.get('cover') or data.get('accountInfo').get('cover')
     table_data = []
@@ -213,10 +190,15 @@ def display_images(data):
 
 def get_user_info(target_uid: int):
     try:
-        sid = get_cookie('sid')
-        uid = get_cookie('uid')
-        if not sid or not uid:
-            login()
+        # 检查demo
+        if not demo_mode:
+            sid = get_cookie('sid')
+            uid = get_cookie('uid')
+            if not sid or not uid:
+                login()
+        else:
+            sid = demo_sid
+            uid = demo_uid
         data = asyncio.run(jmc.get_user_info(target_uid, sid, uid))
         print(data)
         put_html('<hr>')
@@ -296,7 +278,7 @@ def main():
             logout()
     # 查询本人信息
     elif select_options == options[3]:
-        get_self_info()
+        get_user_info(demo_uid)
     # 查询他人信息
     elif select_options == options[4]:
         target_uid = input('请输入要查询的用户UID', type=NUMBER, required=True,
