@@ -43,11 +43,14 @@ XP模块注入后，我们已经可以看到HTTPS协议的数据包了，我们�
 
 使用Google Maps构建位置URL：
 
-`https://www.google.com/maps/?q=纬度,经度`
+```python
+location_url = f"https://www.google.com/maps/?q={lat},{lng}"
+print(location_url)
+```
 
 构建完成的URL：
 
-`https://www.google.com/maps/?q=48.18108406871809,-114.3050911575964`
+`https://www.google.com/maps/?q=37.30890306084834,-121.9135438673637`
 
 点击链接我们就能直接查看用户上一次打开积目APP时的位置了。
 
@@ -68,3 +71,7 @@ User-Agent: okhttp/4.1.1
 现在我们知道了加密的具体参数名，我们回到电脑进行下一步分析。
 
 ## 静态分析
+
+我们使用Jadx对APK文件进行反编译，但是发现该APK已经被加壳了。
+
+
