@@ -74,4 +74,26 @@ User-Agent: okhttp/4.1.1
 
 我们使用Jadx对APK文件进行反编译，但是发现该APK已经被加壳了。
 
+![image](https://github.com/Evil0ctal/JiMu-APP-Client/assets/20760448/8bf1cfe6-e680-42f4-9298-82d2cda088bf)
 
+这种情况下，我们只能对APK进行砸壳，在这里我使用[FRIDA-DEXDump](https://github.com/hluwa/frida-dexdump)对加载到手机内存中的DEX文件进行砸壳。
+
+砸壳完成后，我们得到了非常多的DEX文件，这是因为FRIDA-DEXDump会对内存中的所有DEX文件进行扫描，并把有关联的DEX全部输出。
+
+现在我们使用Jadx重新打开输出的DEX文件，并直接搜索加密参数关键字，在这里我搜索的是`InkeV1`关键字，因为这看起来像一种固定的加密格式，写过后端的同学应该知道，类似JWT。
+
+非常走运，开发者没有对这个String进行编码，我们直接在代码中搜到了该值。
+
+![image](https://github.com/Evil0ctal/JiMu-APP-Client/assets/20760448/61947f32-e906-4f9c-9e9b-9012adeb7941)
+
+点进该方法，查看代码逻辑。
+
+![image](https://github.com/Evil0ctal/JiMu-APP-Client/assets/20760448/e17cb0af-8768-4909-b35d-8fbc845aecbd)
+
+现在的思路就很明了了，请求头中包含一个时间戳，然后对HTTP的请求方法进行了判断(GET/POST)，根据请求方法+时间戳+设备信息+APK版本+HTTP查询参数进行加密。
+
+## 动态调试
+
+使用frida对入口函数的参数进行输出，根据调用栈继续跟踪加密所使用的参数即可，费时费力我这里就不演示了，所有的加密都在JAVA层进行计算，没有设计Native层。
+
+## 总结
