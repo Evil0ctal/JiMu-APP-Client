@@ -1,6 +1,8 @@
 # JiMu-APP-Client
 积目APP的网页客户端，将积目的API进行封装调用。
 
+Github: [https://github.com/Evil0ctal/JiMu-APP-Client/](https://github.com/Evil0ctal/JiMu-APP-Client/)
+
 # 运行
 
 > 确保80端口放行
